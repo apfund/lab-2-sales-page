@@ -1,0 +1,341 @@
+---
+description: Cursor Development Rules for Upswing Poker Lab 2.0
+globs:
+alwaysApply: false
+---
+# Cursor Development Rules for Upswing Poker Lab 2.0
+
+## 🎯 Project Context & Brand Identity
+
+### About Upswing Poker
+- **Founded by Doug Polk**: 3-time WSOP bracelet winner, No-Limit Hold'em specialist
+- **Primary Focus**: Advanced poker education and training for serious players
+- **Core Philosophy**: Skill development over luck, strategic thinking, continuous learning
+- **Community**: 100,000+ poker players seeking mastery and financial success
+
+### Target Audience
+- **Primary**: Ages 25-45, predominantly male, moderate to high income ($50K-$150K)
+- **Expert Players**: High-stakes, tournament-focused, data-driven strategists
+- **Intermediate Players**: Serious hobbyists aspiring to semi-professional level
+- **Pain Points**: Skill plateaus, complexity overwhelm, time constraints, fear of financial loss
+- **Goals**: Mastery, respect, financial freedom, mental development, community belonging
+
+---
+
+## 🎨 Design System & Visual Guidelines
+
+### Color Palette (Use CSS Variables)
+```css
+/* Dark Theme (Primary) */
+--bg-main: #0C0C0E;          /* Main background */
+--bg-card: #1E1E22;          /* Card/component backgrounds */
+--text-heading: #FFFFFF;      /* Primary headings */
+--text-primary: #EAEAEA;      /* Body text */
+--text-muted: #8C8C94;        /* Secondary text */
+
+/* Accent Colors */
+--accent-red: #FF2C1F;        /* Alerts, warnings, important CTAs */
+--accent-gold: #FFB800;       /* Premium features, achievements */
+--accent-green: #33C687;      /* Success, progress indicators */
+--cta-green: #00a651;         /* Primary call-to-action buttons */
+--accent-blue: #796EFA;       /* Links, secondary actions */
+
+/* Light Theme Support */
+--bg-light: #F8F9FA;
+--bg-card-light: #FFFFFF;
+--text-heading-dark: #1A1B1E;
+--text-primary-dark: #2D2E32;
+Typography
+
+Headings: --font-heading: 'Poppins', sans-serif - Bold, confident, modern
+Body: --font-body: 'Inter', sans-serif - Clean, readable, professional
+Reading Level: Target 4th-7th grade for accessibility
+Tone: Conversational yet authoritative
+
+Layout & Spacing
+
+Max Width: --max-width-content: 1200px
+Responsive Breakpoints: Mobile-first approach
+Spacing Scale: Use defined variables (--spacing-xl, --spacing-lg, etc.)
+
+
+🗣️ Doug Polk's Voice & Tone Guidelines
+Core Voice Characteristics
+1. Conversational & Direct
+
+Start with friendly greetings: "Hey guys," "What's up,"
+Use "you" and "we" frequently
+Address readers like smart friends, not students
+
+2. Confident but Not Arrogant
+
+Make bold claims backed by evidence
+Reference achievements matter-of-factly
+Use phrases like "world-class strategies," "proven methods"
+
+3. Humorous & Self-Deprecating
+
+Include light jokes and poker references
+Admit past mistakes and failures
+Use sarcasm sparingly but effectively
+
+4. High-Energy & Entertaining
+
+Keep content punchy and fast-paced
+Use short sentences for impact
+Include action-oriented language ("crush," "dominate," "level up")
+
+Writing Style Rules
+
+Sentence Structure: Mix short punchy sentences with longer explanatory ones
+Paragraphs: Often single sentences for emphasis
+Humor: Strategic, always ties back to the message
+Technical Terms: Explain complex concepts simply
+Call-to-Actions: Energetic and motivational ("Let's crush this," "Take action now")
+
+Sample Doug Polk Voice Examples
+❌ Wrong: "This comprehensive module will provide you with the foundational knowledge necessary to implement advanced strategic concepts."
+
+✅ Right: "Want to crush your opponents with moves they'll never see coming? Let's dive into the strategies that separate the pros from everyone else."
+Prohibited Language
+
+Avoid corporate jargon or overly formal language
+Don't make gambling recommendations where illegal
+No financial advice beyond educational poker strategy
+Avoid talking down to the audience
+
+
+💻 Technical Development Standards
+Code Quality
+typescript// Always use TypeScript for type safety
+interface User {
+  id: string;
+  skillLevel: 'beginner' | 'intermediate' | 'expert';
+  preferences: UserPreferences;
+}
+
+// Follow consistent naming conventions
+const calculateWinRate = (sessions: PokerSession[]) => {
+  // Clear, descriptive function names
+};
+Component Architecture
+
+React Components: Functional components with hooks
+Naming: PascalCase for components, camelCase for functions
+Props: Always define interfaces/types
+Styling: CSS-in-JS or CSS Modules, use design system variables
+
+File Structure
+src/
+├── components/
+│   ├── ui/           # Reusable UI components
+│   ├── poker/        # Poker-specific components
+│   └── forms/        # Form components
+├── pages/
+├── hooks/
+├── utils/
+├── types/
+└── styles/
+    └── globals.css   # CSS variables and base styles
+Accessibility Requirements
+
+WCAG 2.1 AA compliance
+Semantic HTML: Proper heading hierarchy, landmarks
+Keyboard Navigation: All interactive elements accessible
+Screen Readers: Meaningful alt text, ARIA labels
+Color Contrast: Meet accessibility standards
+
+Performance Standards
+
+Loading: Initial page load under 3 seconds
+Interactive: Time to interactive under 5 seconds
+Images: Optimized, lazy-loaded, responsive
+Bundle Size: Monitor and optimize JavaScript bundles
+
+
+🎓 Content & User Experience Guidelines
+Educational Content Structure
+
+Hook: Start with a question, challenge, or bold statement
+Problem: Identify specific pain point or skill gap
+Solution: Present strategy or concept clearly
+Example: Use real poker scenarios/hands
+Action: Clear next step or call-to-action
+
+Interactive Elements
+tsx// Quiz Component Example
+interface QuizQuestion {
+  question: string;
+  options: string[];
+  correct: number;
+  explanation: string;
+  dougComment?: string; // Optional Doug Polk insight
+}
+
+const PokerQuiz: React.FC<{questions: QuizQuestion[]}> = ({questions}) => {
+  // Interactive quiz with immediate feedback
+  // Track progress and show explanations
+  // Include Doug's voice in explanations
+};
+Gamification Elements
+
+Progress Tracking: Visual progress bars, completion badges
+Achievements: Unlock content based on progress
+Leaderboards: Community competition elements
+Streaks: Encourage daily engagement
+
+
+🚀 Feature Development Priorities
+Core Learning Features
+
+Video Player: Custom controls, playback speed, note-taking
+Hand Replayer: Interactive poker hand visualization
+Quiz System: Immediate feedback, progress tracking
+Progress Dashboard: Personal analytics and achievements
+Community Forums: Peer discussion and Q&A
+
+Advanced Features
+
+AI-Powered Analysis: Hand review and recommendations
+Live Streaming Integration: Real-time learning sessions
+Mobile App: Offline content, push notifications
+Personalization: Adaptive content based on skill level
+Social Features: Study groups, peer challenges
+
+Component Examples
+tsx// Poker Hand Component
+interface PokerHand {
+  cards: Card[];
+  position: Position;
+  action: Action;
+  dougAnalysis?: string;
+}
+
+const HandDisplay: React.FC<{hand: PokerHand}> = ({hand}) => {
+  return (
+    <div className="hand-display">
+      {/* Visual representation of poker scenarios */}
+      {hand.dougAnalysis && (
+        <div className="doug-insight">
+          <strong>Doug's Take:</strong> {hand.dougAnalysis}
+        </div>
+      )}
+    </div>
+  );
+};
+
+📱 Mobile & Responsive Design
+Breakpoints
+css/* Mobile First Approach */
+.container {
+  /* Base mobile styles */
+}
+
+@media (min-width: 768px) {
+  /* Tablet styles */
+}
+
+@media (min-width: 1024px) {
+  /* Desktop styles */
+}
+Mobile-Specific Considerations
+
+Touch Targets: Minimum 44px for interactive elements
+Loading States: Clear indicators for slow connections
+Offline Support: Cache critical content
+Performance: Optimize images and minimize JavaScript
+
+
+🔒 Security & Privacy
+Data Protection
+
+User Privacy: GDPR/CCPA compliance
+Secure Authentication: JWT tokens, secure storage
+Payment Security: PCI DSS compliance
+Content Protection: DRM for premium videos
+
+Error Handling
+typescript// Graceful error handling with Doug's voice
+try {
+  const userProgress = await fetchUserProgress(userId);
+  return userProgress;
+} catch (error) {
+  console.error('Failed to fetch user progress:', error);
+  // Show user-friendly error message in Doug's tone
+  showErrorMessage("Oops! Looks like we hit a snag. Don't worry, we've got your back - try refreshing and let's get back to crushing it.");
+}
+
+📊 Analytics & Optimization
+Key Metrics to Track
+
+User Engagement: Time spent, pages visited, video completion rates
+Learning Outcomes: Quiz scores, progress completion
+Conversion: Free to paid transitions, upsell success
+Performance: Page load times, error rates
+
+A/B Testing Framework
+
+Content Variations: Test different explanations, examples
+UI Elements: Button colors, layouts, copy
+User Flows: Onboarding sequences, checkout processes
+
+
+🌟 Brand-Specific Features
+Doug Polk Integration
+
+Personal Stories: Include Doug's experiences and anecdotes
+Video Content: Feature Doug's teaching style and personality
+Community Interaction: Direct access to Doug through forums/Q&A
+Voice Consistency: All content should sound like Doug wrote it
+
+Success Stories & Social Proof
+
+Student Testimonials: Real results and achievements
+Progress Showcases: Before/after skill improvements
+Community Highlights: Feature active members
+
+Poker-Specific Terminology
+typescript// Common poker terms to use consistently
+interface PokerTerms {
+  // Use these consistently throughout the app
+  equity: "Your share of the pot based on winning chances";
+  outs: "Cards that improve your hand";
+  position: "Where you sit relative to the dealer";
+  // etc.
+}
+
+✅ Quality Assurance Checklist
+Before Every Release
+
+ Cross-browser compatibility tested
+ Mobile responsiveness verified
+ Accessibility standards met
+ Performance benchmarks achieved
+ Content reviewed for Doug's voice consistency
+ User flows tested end-to-end
+ Security vulnerabilities scanned
+ Analytics events working correctly
+
+Content Review Criteria
+
+ Matches Doug Polk's voice and tone
+ Appropriate for target skill level
+ Actionable and practical advice
+ Free of grammar/spelling errors
+ Includes relevant poker examples
+ Call-to-action is clear and compelling
+
+Doug Voice Checklist
+
+ Starts conversationally ("Hey guys," "What's up")
+ Uses "you" and "we" frequently
+ Includes confidence without arrogance
+ Has appropriate humor/personality
+ Ends with clear, energetic call-to-action
+ Feels like Doug is speaking directly to the reader
+
+
+🎯 Remember
+Every feature, design decision, and piece of content should serve the ultimate goal of helping serious poker players improve their skills and achieve their dreams of mastery and success.
+Keep Doug's authentic, confident, and entertaining voice at the forefront while maintaining the highest technical and educational standards.
+The poker dream is still alive - and we're here to help players crush it.
