@@ -2929,7 +2929,7 @@ img.lab-hero-logo {
     background: linear-gradient(135deg, var(--accent-red), var(--accent-gold));
     color: white;
     padding: 16px 24px;
-    border-radius: 16px;
+    border-radius: 16px 16px 0 0;
     text-align: center;
     margin-bottom: var(--spacing-lg);
     font-weight: 700;
@@ -2937,16 +2937,30 @@ img.lab-hero-logo {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     box-shadow: 0 8px 25px rgba(255, 44, 31, 0.3);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.pricing-launch-banner::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: 18px 18px 0 0;
+    background: linear-gradient(135deg, var(--accent-gold), var(--accent-red), var(--accent-gold));
+    z-index: -1;
+    opacity: 1;
+    background-size: 200% 200%;
+    animation: shimmer 3s ease-in-out infinite;
 }
 
 .pricing-subtitle {
     font-size: 20px;
     color: white;
     background: linear-gradient(135deg, var(--bg-card) 0%, #252529 100%);
+    margin-top: -39px;
     margin-bottom: var(--spacing-lg);
-    background: var(--);
     padding: 16px 24px;
-    border-radius: 0.5em;
+    border-radius: 0 0 0.5em 0.5em;
     text-align: center;
     box-shadow: 0 4px 12px rgba(255, 184, 0, 0.3);
     font-weight: 600;
@@ -2958,7 +2972,7 @@ img.lab-hero-logo {
     content: '';
     position: absolute;
     inset: -2px;
-    border-radius: 0.5em;
+    border-radius: 0 0 0.5em 0.5em;
     background: linear-gradient(135deg, var(--accent-gold), var(--accent-red), var(--accent-gold));
     z-index: -1;
     opacity: 1;
@@ -3151,7 +3165,7 @@ img.lab-hero-logo {
     position: relative;
     background: linear-gradient(135deg, var(--bg-card), #1a1a1e);
     border-radius: 0.5em;
-    padding: var(--spacing-xs);
+    padding: var(--spacing-md);
     border: 1px solid rgba(255, 184, 0, 0.2);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
@@ -3740,7 +3754,7 @@ img.lab-hero-logo {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2em;
-    margin-bottom: 3em;
+    margin-bottom: 0em;
 }
 
 .testimonial-card {
