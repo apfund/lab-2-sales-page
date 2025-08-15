@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+<!-- Google Tag Manager by PYS -->
+    <script data-cfasync="false" data-pagespeed-no-defer>
+	    window.dataLayerPYS = window.dataLayerPYS || [];
+	</script>
+<!-- End Google Tag Manager by PYS -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v25.6 (Yoast SEO v25.6) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - Upswing Poker</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - Upswing Poker" />
+	<meta property="og:site_name" content="Upswing Poker" />
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<script type='application/javascript' id='pys-version-script'>console.log('PixelYourSite PRO version 11.3.0.3');</script>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Upswing Poker &raquo; Feed" href="https://upswingpoker.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Upswing Poker &raquo; Comments Feed" href="https://upswingpoker.com/comments/feed/" />
+<link rel="preload" href="https://upswingpoker.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/upswingpoker.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link rel='stylesheet' id='wc-blocks-integration-css' href='https://upswingpoker.com/wp-content/plugins/woocommerce-subscriptions/build/index.css?ver=8.3.0' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://upswingpoker.com/wp-includes/css/dist/block-library/style.min.css?ver=6.7.2' media='all' />
+<style id='wp-block-library-theme-inline-css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='flux-checkout-cross-sell-style-inline-css'>
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/cross-sell/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+
+
+</style>
+<style id='flux-checkout-elements-placeholder-style-inline-css'>
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/elements-placeholder/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+
+
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--fl-heading-text: #0a0a0a;--wp--preset--color--fl-body-bg: #f2f2f2;--wp--preset--color--fl-body-text: #595858;--wp--preset--color--fl-accent: #db2e1c;--wp--preset--color--fl-accent-hover: #db2e1c;--wp--preset--color--fl-topbar-bg: #ffffff;--wp--preset--color--fl-topbar-text: #000000;--wp--preset--color--fl-topbar-link: #2b7bb9;--wp--preset--color--fl-topbar-hover: #2b7bb9;--wp--preset--color--fl-header-bg: #ffffff;--wp--preset--color--fl-header-text: #000000;--wp--preset--color--fl-header-link: #2b7bb9;--wp--preset--color--fl-header-hover: #2b7bb9;--wp--preset--color--fl-nav-bg: #ffffff;--wp--preset--color--fl-nav-link: #2b7bb9;--wp--preset--color--fl-nav-hover: #2b7bb9;--wp--preset--color--fl-content-bg: #ffffff;--wp--preset--color--fl-footer-widgets-bg: #ffffff;--wp--preset--color--fl-footer-widgets-text: #000000;--wp--preset--color--fl-footer-widgets-link: #2b7bb9;--wp--preset--color--fl-footer-widgets-hover: #2b7bb9;--wp--preset--color--fl-footer-bg: #ffffff;--wp--preset--color--fl-footer-text: #000000;--wp--preset--color--fl-footer-link: #2b7bb9;--wp--preset--color--fl-footer-hover: #2b7bb9;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='bcct_style-css' href='https://upswingpoker.com/wp-content/plugins/better-click-to-tweet/assets/css/styles.css?ver=3.0' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-nivo_lightbox-css-css' href='https://upswingpoker.com/wp-content/plugins/responsive-lightbox-lite/assets/nivo-lightbox/nivo-lightbox.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-nivo_lightbox-css-d-css' href='https://upswingpoker.com/wp-content/plugins/responsive-lightbox-lite/assets/nivo-lightbox/themes/default/default.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='steal-equation-styles-css' href='https://upswingpoker.com/wp-content/plugins/steal-equation/css/stealequation.css?1755300766&#038;ver=6.7.2' media='all' />
+<link rel='stylesheet' id='upswing-custom-cart-css' href='https://upswingpoker.com/wp-content/plugins/upswing-custom-cart/UpswingCustomCart.css?ver=1.1.0' media='all' />
+<link rel='stylesheet' id='upswing-header-styles-css' href='https://upswingpoker.com/wp-content/plugins/upswing-custom-header/UpswingHeaderStyle.css?ver=1.1.11' media='all' />
+<link rel='stylesheet' id='card-icons-css-css' href='https://upswingpoker.com/wp-content/plugins/upswing-inline-card-icons/CardIcons.css?ver=1.2.1' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://upswingpoker.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.0.4' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://upswingpoker.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=10.0.4' media='only screen and (max-width: 767px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://upswingpoker.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=10.0.4' media='all' />
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='font-awesome-5-css' href='https://upswingpoker.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css?ver=2.9.2.1' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-bundle-40d52085df4948e331b3e4e5b6872ab6-css' href='https://upswingpoker.com/wp-content/uploads/bb-plugin/cache/40d52085df4948e331b3e4e5b6872ab6-layout-bundle.css?ver=2.9.2.1-1.5.1' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css' href='https://upswingpoker.com/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.19' media='all' />
+<link rel='stylesheet' id='swatches-and-photos-css' href='https://upswingpoker.com/wp-content/plugins/woocommerce-variation-swatches-and-photos/assets/css/swatches-and-photos.css?ver=3.0.6' media='all' />
+<link rel='stylesheet' id='brands-styles-css' href='https://upswingpoker.com/wp-content/plugins/woocommerce/assets/css/brands.css?ver=10.0.4' media='all' />
+<link rel='stylesheet' id='base-css' href='https://upswingpoker.com/wp-content/themes/bb-theme/css/base.min.css?ver=1.7.18.1' media='all' />
+<link rel='stylesheet' id='fl-automator-skin-css' href='https://upswingpoker.com/wp-content/uploads/bb-theme/skin-684895d16f331.css?ver=1.7.18.1' media='all' />
+<link rel='stylesheet' id='fl-child-theme-css' href='https://upswingpoker.com/wp-content/themes/bb-theme-child/style.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='pp-animate-css' href='https://upswingpoker.com/wp-content/plugins/bbpowerpack/assets/css/animate.min.css?ver=3.5.1' media='all' />
+<link rel='stylesheet' id='fl-builder-google-fonts-1130ab3e408f81dceee033f0b6c8c4f7-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700%2C400%7CPoppins%3A500i&#038;ver=6.7.2' media='all' />
+<script nitro-exclude id="nitropack-ajax-shortcodes-js-after">
+let nitroAjaxShortcode = false
+</script>
+<script src="https://upswingpoker.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://upswingpoker.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/responsive-lightbox-lite/assets/nivo-lightbox/nivo-lightbox.min.js?ver=6.7.2" id="responsive-lightbox-nivo_lightbox-js"></script>
+<script id="responsive-lightbox-lite-script-js-extra">
+var rllArgs = {"script":"nivo_lightbox","selector":"lightbox","custom_events":""};
+</script>
+<script src="https://upswingpoker.com/wp-content/plugins/responsive-lightbox-lite/assets/inc/script.js?ver=6.7.2" id="responsive-lightbox-lite-script-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.0.4" id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.0.4" id="js-cookie-js" defer data-wp-strategy="defer"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};
+</script>
+<script src="https://upswingpoker.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.0.4" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+<script id="search-filter-pro-bb-js-extra">
+var SFVC_DATA = {"ajax_url":"https:\/\/upswingpoker.com\/wp-admin\/admin-ajax.php","home_url":"https:\/\/upswingpoker.com\/"};
+</script>
+<script src="https://upswingpoker.com/wp-content/plugins/search-filter-bb/assets/v2/js/frontend.js?ver=1.3.0" id="search-filter-pro-bb-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/pixelyoursite-pro/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3" id="js-cookie-pys-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/pixelyoursite-pro/dist/scripts/jquery.bind-first-0.2.3.min.js" id="jquery-bind-first-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/pixelyoursite-pro/dist/scripts/tld.min.js?ver=2.3.1" id="js-tld-js"></script>
+<script id="pys-js-extra">
+var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"static","ajaxFire":false,"name":"PageView","eventID":"6de002e1-4cba-43af-ae9a-22bcddea1e48","pixelIds":["1711694469105076","268927586817673"],"params":{"tags":"Cash Games, Intermediate, Online Poker","post_category":"Poker Strategy","page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":{"automatic_event_internal_link":{"facebook":{"delay":0,"type":"dyn","name":"InternalClick","eventID":"bb246426-a418-4293-9bf2-25ebc49c5fd1","pixelIds":["1711694469105076","268927586817673"],"params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_internal_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"ga":{"delay":0,"type":"dyn","name":"InternalClick","trackingIds":["G-19RXF7CJJ2"],"eventID":"bb246426-a418-4293-9bf2-25ebc49c5fd1","params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_internal_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_outbound_link":{"facebook":{"delay":0,"type":"dyn","name":"OutboundClick","eventID":"c26382a5-fab1-47ed-9afe-0557fe645053","pixelIds":["1711694469105076","268927586817673"],"params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_outbound_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"ga":{"delay":0,"type":"dyn","name":"OutboundClick","trackingIds":["G-19RXF7CJJ2"],"eventID":"c26382a5-fab1-47ed-9afe-0557fe645053","params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_outbound_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_video":{"facebook":{"delay":0,"type":"dyn","name":"WatchVideo","eventID":"9dd0a6dd-d590-48f7-b156-991f0757b028","pixelIds":["1711694469105076","268927586817673"],"params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_video","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"ga":{"delay":0,"type":"dyn","name":"WatchVideo","youtube_disabled":false,"trackingIds":["G-19RXF7CJJ2"],"eventID":"9dd0a6dd-d590-48f7-b156-991f0757b028","params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_video","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_tel_link":{"facebook":{"delay":0,"type":"dyn","name":"TelClick","eventID":"a4265f7b-2d49-464c-9e42-7bc2baec3845","pixelIds":["1711694469105076","268927586817673"],"params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_tel_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"ga":{"delay":0,"type":"dyn","name":"TelClick","trackingIds":["G-19RXF7CJJ2"],"eventID":"a4265f7b-2d49-464c-9e42-7bc2baec3845","params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_tel_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_email_link":{"facebook":{"delay":0,"type":"dyn","name":"EmailClick","eventID":"ae7248b1-547a-4d5d-acae-2533411dfce0","pixelIds":["1711694469105076","268927586817673"],"params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_email_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"ga":{"delay":0,"type":"dyn","name":"EmailClick","trackingIds":["G-19RXF7CJJ2"],"eventID":"ae7248b1-547a-4d5d-acae-2533411dfce0","params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_email_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_form":{"facebook":{"delay":0,"type":"dyn","name":"Form","eventID":"9691ef4b-e0b7-4fd1-a725-17922a5fbc48","pixelIds":["1711694469105076","268927586817673"],"params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_form","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"ga":{"delay":0,"type":"dyn","name":"Form","trackingIds":["G-19RXF7CJJ2"],"eventID":"9691ef4b-e0b7-4fd1-a725-17922a5fbc48","params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_form","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_download":{"facebook":{"delay":0,"type":"dyn","name":"Download","extensions":["","doc","exe","js","pdf","ppt","tgz","zip","xls"],"eventID":"aba839b9-3040-4859-a3c8-4e907d517e3f","pixelIds":["1711694469105076","268927586817673"],"params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_download","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"ga":{"delay":0,"type":"dyn","name":"Download","extensions":["","doc","exe","js","pdf","ppt","tgz","zip","xls"],"trackingIds":["G-19RXF7CJJ2"],"eventID":"aba839b9-3040-4859-a3c8-4e907d517e3f","params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_download","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_comment":{"facebook":{"delay":0,"type":"dyn","name":"Comment","eventID":"94db3919-60fd-40d7-8a90-808577514aad","pixelIds":["1711694469105076","268927586817673"],"params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_comment","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"ga":{"delay":0,"type":"dyn","name":"Comment","trackingIds":["G-19RXF7CJJ2"],"eventID":"94db3919-60fd-40d7-8a90-808577514aad","params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_comment","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_adsense":{"facebook":{"delay":0,"type":"dyn","name":"AdSense","eventID":"edbbfad2-6943-4814-bb9d-b0f603b9fc19","pixelIds":["1711694469105076","268927586817673"],"params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_adsense","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"ga":{"delay":0,"type":"dyn","name":"AdSense","trackingIds":["G-19RXF7CJJ2"],"eventID":"edbbfad2-6943-4814-bb9d-b0f603b9fc19","params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"automatic_event_adsense","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"woo_add_to_cart_on_button_click":{"facebook":{"delay":0,"type":"dyn","name":"AddToCart","eventID":"01a1713a-e889-42f2-9440-d08d7af62e9a","pixelIds":["1711694469105076","268927586817673"],"params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"woo_add_to_cart_on_button_click","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""},"ga":{"delay":0,"type":"dyn","name":"add_to_cart","trackingIds":["G-19RXF7CJJ2"],"eventID":"01a1713a-e889-42f2-9440-d08d7af62e9a","params":{"page_title":"How Elite Poker Pros Play Pocket Kings Postflop","post_type":"post","post_id":753040,"plugin":"PixelYourSite","event_url":"upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","user_role":"guest"},"e_id":"woo_add_to_cart_on_button_click","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}}},"triggerEvents":[],"triggerEventTypes":[],"facebook":{"pixelIds":["1711694469105076","268927586817673"],"advancedMatchingEnabled":false,"advancedMatching":[],"removeMetadata":false,"wooVariableAsSimple":false,"serverApiEnabled":true,"wooCRSendFromServer":false,"send_external_id":true,"enabled_medical":false,"do_not_track_medical_param":["event_url","post_title","page_title","landing_page","content_name","categories","category_name","tags"],"meta_ldu":false,"hide_pixels":[]},"ga":{"trackingIds":["G-19RXF7CJJ2"],"retargetingLogic":"ecomm","crossDomainEnabled":false,"crossDomainAcceptIncoming":false,"crossDomainDomains":[],"wooVariableAsSimple":true,"isDebugEnabled":[],"serverContainerUrls":{"G-19RXF7CJJ2":{"enable_server_container":"","server_container_url":"","transport_url":""}},"additionalConfig":{"G-19RXF7CJJ2":{"first_party_collection":true}},"disableAdvertisingFeatures":false,"disableAdvertisingPersonalization":false,"url_passthrough":true,"url_passthrough_filter":true,"custom_page_view_event":false,"hide_pixels":[]},"debug":"","siteUrl":"https:\/\/upswingpoker.com","ajaxUrl":"https:\/\/upswingpoker.com\/wp-admin\/admin-ajax.php","ajax_event":"302599a0e0","trackUTMs":"1","trackTrafficSource":"1","user_id":"0","enable_lading_page_param":"1","cookie_duration":"7","enable_event_day_param":"1","enable_event_month_param":"1","enable_event_time_param":"1","enable_remove_target_url_param":"1","enable_remove_download_url_param":"1","visit_data_model":"first_visit","last_visit_duration":"60","enable_auto_save_advance_matching":"1","enable_success_send_form":"","enable_automatic_events":"1","enable_event_video":"1","ajaxForServerEvent":"1","ajaxForServerStaticEvent":"1","send_external_id":"1","external_id_expire":"180","track_cookie_for_subdomains":"","google_consent_mode":"1","data_persistency":"keep_data","advance_matching_form":{"enable_advance_matching_forms":true,"advance_matching_fn_names":["","first_name","first-name","first name","name"],"advance_matching_ln_names":["","last_name","last-name","last name"],"advance_matching_tel_names":["","phone","tel"],"advance_matching_em_names":[""]},"advance_matching_url":{"enable_advance_matching_url":false,"advance_matching_fn_names":[""],"advance_matching_ln_names":[""],"advance_matching_tel_names":[""],"advance_matching_em_names":[""]},"track_dynamic_fields":[],"gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"tiktok_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"tiktok_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":true,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_tiktok_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_google_ads_consent_category":"marketing","cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"consent_magic_integration_enabled":false,"analytics_storage":{"enabled":true,"value":"granted","filter":false},"ad_storage":{"enabled":true,"value":"granted","filter":false},"ad_user_data":{"enabled":true,"value":"granted","filter":false},"ad_personalization":{"enabled":true,"value":"granted","filter":false}},"cookie":{"disabled_all_cookie":false,"disabled_start_session_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"tracking_analytics":{"TrafficSource":"direct","TrafficLanding":"https:\/\/upswingpoker.com\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","TrafficUtms":[],"TrafficUtmsId":[],"userDataEnable":true,"userData":{"emails":[],"phones":[],"addresses":[]},"use_encoding_provided_data":true,"use_multiple_provided_data":true},"GATags":{"ga_datalayer_type":"default","ga_datalayer_name":"dataLayerPYS"},"automatic":{"enable_youtube":true,"enable_vimeo":true,"enable_video":true},"woo":{"enabled":true,"enabled_save_data_to_orders":true,"addToCartOnButtonEnabled":true,"addToCartOnButtonValueEnabled":true,"addToCartOnButtonValueOption":"price","woo_purchase_on_transaction":true,"woo_view_content_variation_is_selected":true,"singleProductId":null,"affiliateEnabled":false,"removeFromCartSelector":"form.woocommerce-cart-form .remove","addToCartCatchMethod":"add_cart_js","is_order_received_page":false,"containOrderId":false,"affiliateEventName":"Lead"},"edd":{"enabled":false},"cache_bypass":"1755300766"};
+</script>
+<script src="https://upswingpoker.com/wp-content/plugins/pixelyoursite-pro/dist/scripts/public.js?ver=11.3.0.3" id="pys-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/pixelyoursite-super-pack/dist/scripts/public.js?ver=5.4.1.1" id="pys_sp_public_js-js"></script>
+		<script>
+			window.wc_ga_pro = {};
+
+			window.wc_ga_pro.ajax_url = 'https://upswingpoker.com/wp-admin/admin-ajax.php';
+
+			window.wc_ga_pro.available_gateways = {"stripe":"Credit \/ Debit Card","ppcp-gateway":"PayPal, Google Pay, Apple Pay, & Venmo"};
+
+			// interpolate json by replacing placeholders with variables (only used by UA tracking)
+			window.wc_ga_pro.interpolate_json = function( object, variables ) {
+
+				if ( ! variables ) {
+					return object;
+				}
+
+				let j = JSON.stringify( object );
+
+				for ( let k in variables ) {
+					j = j.split( '{$' + k + '}' ).join( variables[ k ] );
+				}
+
+				return JSON.parse( j );
+			};
+
+			// return the title for a payment gateway
+			window.wc_ga_pro.get_payment_method_title = function( payment_method ) {
+				return window.wc_ga_pro.available_gateways[ payment_method ] || payment_method;
+			};
+
+			// check if an email is valid
+			window.wc_ga_pro.is_valid_email = function( email ) {
+				return /[^\s@]+@[^\s@]+\.[^\s@]+/.test( email );
+			};
+		</script>
+				<!-- Google tag (gtag.js) -->
+		<script async src='https://www.googletagmanager.com/gtag/js?id=G-4K5E0FQ2XG&l=dataLayer'></script>
+		<script >
+
+			window.dataLayerPYS = window.dataLayerPYS || [];
+
+			function gtag() {
+				dataLayerPYS.push(arguments);
+			}
+
+			gtag('js', new Date());
+
+			gtag('config', 'G-4K5E0FQ2XG', {"cookie_domain":"auto"});
+
+			gtag('consent', 'default', {"analytics_storage":"denied","ad_storage":"denied","ad_user_data":"denied","ad_personalization":"denied","region":["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","LV","LI","LT","LU","MT","NL","NO","PL","PT","RO","SK","SI","ES","SE","GB","CH"]});(function($) {
+	$(function () {
+
+		const consentMap = {
+			statistics: [ 'analytics_storage' ],
+			marketing: [ 'ad_storage', 'ad_user_data', 'ad_personalization' ]
+		};
+
+		// eslint-disable-next-line camelcase -- `wp_has_consent` is defined by the WP Consent API plugin.
+		if ( typeof window.wp_has_consent === 'function' ) {
+			console.log('has consent');
+
+			// eslint-disable-next-line camelcase -- `wp_consent_type` is defined by the WP Consent API plugin.
+			if ( window.wp_consent_type === undefined ) {
+				window.wp_consent_type = 'optin';
+			}
+
+			const consentState = {};
+
+			for ( const [ category, types ] of Object.entries( consentMap ) ) {
+				// eslint-disable-next-line camelcase, no-undef -- `consent_api_get_cookie`, `constent_api` is defined by the WP Consent API plugin.
+				if ( consent_api_get_cookie( window.consent_api.cookie_prefix + '_' + category ) !== '' ) {
+					// eslint-disable-next-line camelcase, no-undef -- `wp_has_consent` is defined by the WP Consent API plugin.
+					const hasConsent = wp_has_consent( category ) ? 'granted' : 'denied';
+
+					types.forEach( ( type ) => {
+						consentState[ type ] = hasConsent;
+					} );
+				}
+			}
+
+			if ( Object.keys( consentState ).length > 0 ) {
+				gtag( 'consent', 'update', consentState );
+			}
+		}
+
+		document.addEventListener( 'wp_listen_for_consent_change', ( event ) => {
+			const consentUpdate = {};
+			const types = consentMap[ Object.keys( event.detail )[ 0 ] ];
+			const state = Object.values( event.detail )[ 0 ] === 'allow' ? 'granted' : 'denied';
+
+			if ( types === undefined ) {
+				return
+			}
+
+			types.forEach( ( type ) => {
+				consentUpdate[ type ] = state;
+			} );
+
+			if ( Object.keys( consentUpdate ).length > 0 ) {
+				gtag( 'consent', 'update', consentUpdate );
+			}
+		} );
+	});
+})(jQuery);
+			
+			(function() {
+
+				const event = document.createEvent('Event');
+
+				event.initEvent( 'wc_google_analytics_pro_gtag_loaded', true, true );
+
+				document.dispatchEvent( event );
+			})();
+		</script>
+				<!-- Start WooCommerce Google Analytics Pro -->
+				<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+						ga( 'create', 'UA-59983145-5', {"cookieDomain":"auto"} );
+			ga( 'set', 'forceSSL', true );
+												ga( 'require', 'displayfeatures' );
+									ga( 'require', 'linkid' );
+									ga( 'require', 'ec' );
+
+			
+			(function() {
+
+				// trigger an event the old-fashioned way to avoid a jQuery dependency and still support IE
+				const event = document.createEvent('Event');
+
+				event.initEvent( 'wc_google_analytics_pro_loaded', true, true );
+
+				document.dispatchEvent( event );
+			})();
+		</script>
+				<!-- end WooCommerce Google Analytics Pro -->
+		<link rel="https://api.w.org/" href="https://upswingpoker.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://upswingpoker.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.2" />
+<meta name="generator" content="WooCommerce 10.0.4" />
+		<script>
+			var bb_powerpack = {
+				version: '2.40.4.1',
+				getAjaxUrl: function() { return atob( 'aHR0cHM6Ly91cHN3aW5ncG9rZXIuY29tL3dwLWFkbWluL2FkbWluLWFqYXgucGhw' ); },
+				callback: function() {},
+				mapMarkerData: {},
+				post_id: '755030',
+				search_term: '',
+				current_page: 'https://upswingpoker.com/wp-content/uploads/2025/08/avery-playitsmart.jpg',
+				conditionals: {
+					is_front_page: false,
+					is_home: false,
+					is_archive: false,
+					is_tax: false,
+										is_author: false,
+					current_author: false,
+					is_search: false,
+									}
+			};
+		</script>
+		<meta property="fb:app_id" content="193101447765940"/>		<script type="text/javascript">
+				(function(c,l,a,r,i,t,y){
+					c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;
+					t.src="https://www.clarity.ms/tag/"+i+"?ref=wordpress";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+				})(window, document, "clarity", "script", "jd6yiyonzs");
+		</script>
+			<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	
+
+<script type="application/ld+json" class="saswp-schema-markup-output">
+[{"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Home","url":"https:\/\/upswingpoker.com\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Member Login","url":"https:\/\/members.upswingpoker.com\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Member Home","url":"https:\/\/members.upswingpoker.com\/?operation=contact-update&#038;auth_key=MBqed00otQKs"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"My Account","url":"https:\/\/upswingpoker.com\/account\/subscriptions\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Articles","url":"https:\/\/upswingpoker.com\/blog\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Quizzes","url":"https:\/\/upswingpoker.com\/category\/poker-quizzes\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Free Poker Resources","url":"https:\/\/upswingpoker.com\/free-resources\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"The $7 Postflop Playbook","url":"https:\/\/upswingpoker.com\/postflop-playbook\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"The PLO Launch Pad","url":"https:\/\/upswingpoker.com\/plo-launch-pad\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Upswing Lab  for No Limit Hold\u2019em Players","url":"https:\/\/upswingpoker.com\/the-poker-lab-coaching\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Road to Victory by Darren Elias & Nick Petrangelo","url":"https:\/\/upswingpoker.com\/road-to-victory-pre-reg\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Elite Cash Games Exploits by Uri Peleg","url":"https:\/\/upswingpoker.com\/elite-cash-game-exploits\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Winning Poker Tournaments by Nick Petranglo","url":"https:\/\/upswingpoker.com\/winning-poker-tournaments-with-nick-petrangelo\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Cash Game Course by Kanu7","url":"https:\/\/upswingpoker.com\/advanced-cash-game-strategy-with-kanu7\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"PLO Mastery Course by Dylan & Chris","url":"https:\/\/upswingpoker.com\/advanced-plo-mastery\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Heads-Up Course by Doug Polk","url":"https:\/\/upswingpoker.com\/?page_id=22437"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Mixed Games Course by Jake Abdalla","url":"https:\/\/upswingpoker.com\/mixed-games-poker\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Red Line Rocketship by Uri Peleg","url":"https:\/\/upswingpoker.com\/red-line-rocketship-with-uri-peleg\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"PLO Matrix Preflop Tool","url":"https:\/\/upswingpoker.com\/plo-matrix\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Meet the Pros","url":"https:\/\/upswingpoker.com\/about-us\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Upswing Poker Merchandise","url":"https:\/\/upswingpoker.com\/shop\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Cart","url":"\/shop\/cart\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"FAQs","url":"https:\/\/upswingpoker.com\/f-a-q\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Contact Us","url":"https:\/\/upswingpoker.com\/contact-us\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/upswingpoker.com#Mobile Menu","name":"Reviews","url":"https:\/\/upswingpoker.com\/upswing-poker-lab-review\/"}]}]
+</script>
+
+<script id='nitro-telemetry-meta' nitro-exclude>window.NPTelemetryMetadata={missReason: (!window.NITROPACK_STATE ? '404' : 'hit'),pageType: 'default',isEligibleForOptimization: false,}</script><script id='nitro-generic' nitro-exclude>(()=>{window.NitroPack=window.NitroPack||{coreVersion:"na",isCounted:!1};let e=document.createElement("script");if(e.src="https://nitroscripts.com/ATMRaIwpoDqKcTxjvUInsOfGfTdpynOR",e.async=!0,e.id="nitro-script",document.head.appendChild(e),!window.NitroPack.isCounted){window.NitroPack.isCounted=!0;let t=()=>{navigator.sendBeacon("https://to.getnitropack.com/p",JSON.stringify({siteId:"ATMRaIwpoDqKcTxjvUInsOfGfTdpynOR",url:window.location.href,isOptimized:!!window.IS_NITROPACK,coreVersion:"na",missReason:window.NPTelemetryMetadata?.missReason||"",pageType:window.NPTelemetryMetadata?.pageType||"",isEligibleForOptimization:!!window.NPTelemetryMetadata?.isEligibleForOptimization}))};(()=>{let e=()=>new Promise(e=>{"complete"===document.readyState?e():window.addEventListener("load",e)}),i=()=>new Promise(e=>{document.prerendering?document.addEventListener("prerenderingchange",e,{once:!0}):e()}),a=async()=>{await i(),await e(),t()};a()})(),window.addEventListener("pageshow",e=>{if(e.persisted){let i=document.prerendering||self.performance?.getEntriesByType?.("navigation")[0]?.activationStart>0;"visible"!==document.visibilityState||i||t()}})}})();</script><link rel="icon" href="https://upswingpoker.com/wp-content/uploads/2016/10/Upswing-Poker-AMP-Logo.png" sizes="32x32" />
+<link rel="icon" href="https://upswingpoker.com/wp-content/uploads/2016/10/Upswing-Poker-AMP-Logo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://upswingpoker.com/wp-content/uploads/2016/10/Upswing-Poker-AMP-Logo.png" />
+<meta name="msapplication-TileImage" content="https://upswingpoker.com/wp-content/uploads/2016/10/Upswing-Poker-AMP-Logo.png" />
+		<style id="wp-custom-css">
+			/*CSS to assist with menu conditional fallback*/
+.left-link a::before {
+display: none!important;
+}
+
+.preflop-prodigy-menu {
+	display: none;
+}
+
+.logged-in .preflop-prodigy-menu {
+	display: flex!important;
+}
+
+.preflop-prodigy-menu-2 {
+	display: flex;
+}
+
+.logged-in .preflop-prodigy-menu-2 {
+	display: none!important;
+}
+
+a.preflop-prodigy-mobile-menu {
+	display: none;
+}
+
+.logged-in a.preflop-prodigy-mobile-menu {
+	display: block!important;
+}
+
+#header-background {
+    --sub-header-height: 26px;
+    --main-header-height: 52px;
+    --total-header-height: clamp(60px, calc(100vw / 10), 78px);
+    --logo-width: 300px;
+    --header-padding: max(0px, calc(calc(100vw - var(--maximum-width)) / 2));
+    --logo-pos: calc(var(--header-padding) + calc(var(--logo-width) / 2) + var(--sub-header-height));}
+
+/*Theme Swap CSS*/
+/* General Body And List Styling */
+.fl-builder-content p, .site-inner p, .entry-content p {
+    margin: 0 0 25px;
+}
+
+.entry-content ol li {
+    margin: 0 0 0 45px!important;
+}
+
+.fl-builder-content p, .fl-builder-content ul li, .fl-builder-content ol li, .site-inner p, .site-inner ul li, .site-inner ol li, .entry-content p, .entry-content ul li, .entry-content ol li, .entry-pagination {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ol li::marker {
+    color: black!important;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: -2.2em;
+    margin-right: 0.5em;
+    text-align: right;
+}
+
+.cardRed {
+    color: #ff0101!important;
+}
+
+blockquote {
+    background: transparent;
+    border-top: 0px solid #DDDDDD;
+    border-bottom: 0px solid #DDDDDD;
+    border-left: 0px solid #DDDDDD;
+    border-right: 0px solid #DDDDDD;
+    margin: 0px 0px 30px 0px;
+    padding: 0px 0px 5px;
+}
+
+
+blockquote:before {
+    color: #db2e1c;
+    content: "\f10d";
+    font-family: 'Font Awesome\ 5 Free';
+	  font-weight: 900!important;
+    font-size: 30px;
+    position: relative;
+    top: 45px;
+    display: block;
+	margin-top: -30px;
+	pointer-events: none;
+}
+
+blockquote p {
+  font-style: normal!important;
+  font-size: 20px!important;
+	font-weight: bold!important;
+	color: #0A0A0A;
+	padding-left: 40px!important;
+}
+
+p.wp-caption-text {
+    margin: 10px 0!important;
+    color: #595858;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px!important;
+}
+
+.wp-caption {
+	background: #F5F5F5;
+	border: 0;
+	padding: 5px
+}
+
+/*Fixing Lightbox Styling*/
+.img.mfp-img {
+padding-bottom: 0!important;
+}
+
+.mfp-content {
+padding: 0;
+}
+
+/*Global Header Styling*/
+#header-training button:hover {
+position: initial!important;
+background-color: none!important;
+	border: none!important;
+	text-decoration: none!important;
+}
+
+#header-training button a:hover {
+position: initial!important;
+background-color: none!important;
+	border: none!important;
+	text-decoration: none!important;
+}
+
+#header-training a {
+	text-decoration: none!important;
+}
+
+.training-preview-just-text {
+color: #202020!important;
+}
+
+#header-training .training-preview-blerb {
+color: #202020!important;
+}
+
+
+#header-training button:active {
+position: initial!important;
+background-color: #D1D1D1!important;
+		text-decoration: none!important;
+}
+
+#header-training button a:active {
+position: initial!important;
+background-color: none!important;
+		text-decoration: none!important;
+}
+
+#header-training button:focus {
+background-color: #D1D1D1!important;
+}
+
+.header-button:hover {
+    background-color: white;
+    border: none;
+}
+
+.header-button:active {
+    background-color: white!important;
+    border: none;
+}
+
+.header-button:focus {
+    background-color: white!important;
+    border: none;
+		text-decoration: none!important;
+}
+
+.header-link:hover {
+    background-color: transparent!important;
+    border: none;
+}
+
+.header-link:active {
+    background-color: transparent!important;
+    border: none;
+}
+
+.header-link:focus {
+    background-color: transparent!important;
+    border: none;
+}
+
+.user-menu-label {
+    font-weight: normal;
+}
+
+/*Styling the footer*/
+.upswing-footer-sub-group a:hover {
+color: #404040!important;
+}
+
+/*Styling for Single Posts*/
+.single-post h2 a {
+color: #db2e1c;
+}
+
+/*Styling Meet The Pros Pages*/
+.parent-pageid-12986 #fl-main-content {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+/*Styling Merch Shop Page*/
+.woo-products-per-page-24 h2 {
+	color: #0d72c7!important;
+	font-weight: bold;
+}
+
+.woo-products-per-page-24 .add_to_cart_button {
+	color: #515151!important;
+  background-color: #ebe9eb!important;
+	border: none!important;
+	padding: 0.618em 1em!important;
+	font-weight: 700!important;
+}
+
+.woo-products-per-page-24 .add_to_cart_button:hover {
+	color: #515151!important;
+  background-color: #7ad03a!important;
+	border: none!important;
+	padding: 0.618em 1em!important;
+	font-weight: 700!important;
+}
+
+.woocommerce ul.products li.product a img, .woocommerce-page ul.products li.product a img {
+	border: none;
+}
+
+.woocommerce ul.products li.product a img:hover, .woocommerce-page ul.products li.product a img:hover {
+	border: none;
+}
+
+.woocommerce ul.products li.product a:hover img, .woocommerce-page ul.products li.product a:hover img {
+	border: none;
+}
+
+h1.woocommerce-products-header__title {
+	font-weight: 700!important;
+	color: #595858!important;
+}
+
+.woocommerce-breadcrumb {
+	font-size: 12px!important;
+	color: #9A9A9A!important;
+}
+
+/*Styling Individual Merch Items*/
+.pf-size-guide-modal-wrapper h4 {
+font-weight: bold;
+}
+
+.pf-size-guide-modal__close:active, .pf-size-guide-modal__close:hover {
+border:none;
+}
+
+.product-template-default img {
+border: none!important;
+}
+
+.product-template-default .woocommerce div.product form.cart .variations td, .woocommerce-page div.product form.cart .variations td {
+    padding-bottom: 5px;
+}
+
+.product-template-default .woocommerce div.product form.cart .variations {
+    margin-bottom: 0!important;
+}
+
+.product-template-default .woocommerce div.product form.cart div.quantity, .woocommerce-page div.product form.cart div.quantity {
+	margin-right: 5px;
+}
+
+.product-template-default input[type=number] {
+	font-size: 16px!important;
+}
+
+.product-template-default .single_add_to_cart_button {
+	border: none!important;
+	padding: 0.618em 1em!important;
+	font-weight: 700!important;
+	font-size: 18px!important;
+	margin-left: 0!important;
+}
+	
+.product-template-default .woocommerce-tabs {
+	display: none;
+}
+
+.product-template-default .related h2 {
+font-weight: 700!important;
+color: #595858!important;
+	margin-bottom: 0;
+}
+
+.product-template-default .product a h2 {
+	color: #0d72c7!important;
+}
+
+.product-template-default ul.products {
+	padding-top: 5px!important;
+}
+
+.product-template-default .cart {
+	margin-top: 0!important;
+}
+
+.product-template-default .variations {
+	margin-top: 0!important;
+	margin-bottom: 0!important;
+}
+
+.product-template-default .variations td {
+	padding-bottom: 0!important;
+}
+
+.product-template-default .variations th {
+	line-height: 36px!important;
+}
+
+.product-template-default .posted_in a {
+	color: #0d72c7;
+	font-weight: 400!important;
+}
+
+.product-template-default .sku {
+	font-weight: 400!important;
+}
+
+.product-template-default li {
+	counter-increment: li;
+}
+
+.product-template-default ol li::before {
+    content: ". " counter(li);
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    width: 1.7em;
+    margin-left: -2.2em;
+    margin-right: 0.5em;
+    text-align: right;
+    direction: rtl;
+}
+
+a.reset_variations {
+	color: #0d72c7!important;
+}
+
+/*Styling Variation Swatches */
+.swatch-img {
+	vertical-align: top!important;
+}
+
+/*Styling My Account Page*/
+.woocommerce-MyAccount-navigation li {
+	border-top: none!important;
+	border-bottom: none!important;
+	list-style-type: square!important;
+}
+
+.woocommerce-MyAccount-navigation ul li a {
+	padding: 0px 0!important;
+}
+
+.woocommerce-MyAccount-navigation li {
+	margin-left: 30px;
+}
+
+.post-23019 .fl-post-header {
+	margin-bottom: 0!important;
+}
+
+.woocommerce table.my_account_orders td {
+	padding: 4px 8px!important;
+}
+
+.woocommerce table.my_account_orders .button {
+	border: none;
+	font-weight: 700;
+}
+
+.woocommerce table.my_account_orders .button:hover {
+	border: none;
+	font-weight: 700;
+	background-color: #87CA1A!important;
+}
+
+.post-23019 .woocommerce-Address-title h3 {
+	font-size: 24px!important;
+	border-bottom: none!important;
+}
+
+.post-23019 address {
+	border-top: none!important;
+	padding-top: 0px!important;
+	font-style: italic;
+}
+
+.post-23019 h2#LGV__title {
+	font-size: 30px!important;
+}
+
+.post-23019 h3#LGV__home_link a {
+	font-size: 24px;
+	color: #DB2E1C;
+}
+
+.woocommerce-MyAccount-content .button {
+	border: none!important;
+	font-weight: 700!important;
+	font-size: 18px!important;
+	padding: 0.618em 1em!important;
+}
+
+.woocommerce-MyAccount-content .button:hover {
+	border: none!important;
+	font-weight: 700!important;
+	font-size: 18px!important;
+	padding: 0.618em 1em!important;
+	background-color: #87CA1A!important;
+}
+
+.woocommerce table.account-payment-methods-table td {
+	padding: 9px 12px!important;
+}
+
+.woocommerce table.account-payment-methods-table .button {
+	border: none;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.woocommerce table.account-payment-methods-table .button:hover {
+	border: none;
+	font-weight: 700;
+	background-color: #87CA1A!important;
+}
+
+.woocommerce-EditAccountForm button {
+    color: #515151!important;
+    background-color: #ebe9eb!important;
+		margin-top: 10px!important;
+}
+
+.woocommerce-EditAccountForm .button:hover {
+    color: #515151!important;
+    background-color: #dad8da!important;
+}
+
+.woocommerce-MyAccount-navigation-link--subscriptions a {
+font-weight: 700;
+}
+
+li.is-active a:before {
+    content: "> ";
+}
+
+/* Styling Poker Rules Menu */
+#pokerrulesmenu ul li, #pokerrulesmenu ul li {
+margin: 10px 0 10px 30px!important;
+}
+
+#pokerrulesmenu ul.sub-menu li {
+list-style-type: square;
+}
+
+/* Hand Converter Output Page */
+.page-id-43952 .fl-post-header {
+display: none!important;
+}
+
+.page-id-43952 .fl-content-full {
+margin: 0!important;
+	width: 100%!important;
+	max-width: 100%!important;
+}
+
+.page-id-43952 .fl-content-full .container {
+margin: 0!important;
+	width: 100%!important;
+	max-width: 100%!important;
+}
+
+.page-id-43952 .fl-content-full .fl-content {
+margin: 0!important;
+}
+
+/* Styling the FAQ Child Pages */
+.parent-pageid-16340 .fl-accordion-button {
+    background: #000;
+    color: #fff;
+}
+
+.parent-pageid-16340 h3 a {
+color: #DB2E1C;
+}
+
+/*Styling the Sitemap Page */
+.page-id-19120 .fl-post-header {
+margin-bottom: 0!important;
+}
+
+.page-id-19120 #wpseo_sitemap a {
+font-size: 18px;
+line-height: 24px;
+}
+
+.page-id-19120 #wpseo_sitemap li {
+list-style-type: square;
+line-height: 24px;
+}
+
+/* AP added */ 
+
+a.fl-button, a.fl-button:visited, a.fl-button:hover {
+	border: none;
+}
+
+/*Fixing blog post setup with old layout */
+.postid-40758 .fl-post-header {
+display: none;
+}
+
+.postid-40758 .fl-sidebar {
+display: none;
+}
+
+.postid-40758 .col-md-8 {
+    width: 100%;
+}
+
+.postid-40758 .fl-content-left {
+    border-right: none;
+    padding-right: 0px;
+}
+
+/*End Theme Swap CSS*/
+
+/*Start ClubWPT Gold pros and cons*/
+
+.clubwpt-pros-cons ul {
+  list-style: none;
+  padding: 0;
+}
+.clubwpt-pros-cons li {
+  padding: 5px 0;
+}
+.clubwpt-pros-cons .checkmark {
+  color: green;
+  font-weight: bold;
+}
+.clubwpt-pros-cons .cross {
+  color: red;
+  font-weight: bold;
+}
+.clubwpt-pros-cons h3 {
+  padding: 10px;
+  text-align: center;
+}
+.clubwpt-pros-cons .pros h3 {
+  color: green;
+}
+.clubwpt-pros-cons .cons h3 {
+  color: red;
+}
+.clubwpt-pros-cons .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.clubwpt-pros-cons .column {
+  width: 48%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.clubwpt-pros-cons .pros {
+  background-color: #e6f9e6;
+}
+.clubwpt-pros-cons .cons {
+  background-color: #f9e6e6;
+}
+
+/*End WPT Gold proscons*/
+
+/*Temp Theme Swap CSS - Fix On Page After Matt's Home Updates Live */
+.page-id-17002 h2 a {
+font-size: 30px;
+}
+/* LP - fixing caption spacing*/
+
+.wp-caption-text{
+	line-height: 1.4!important;
+}
+
+/* AP ad insert fix for mobile */
+
+
+@media (max-width: 930px) {
+  .single-post .fl-builder-module-template {
+    padding: 0;  
+  }
+
+.single-post .fl-builder-module-template .fl-module-content {
+		margin:5px 5px;
+	}
+
+}
+
+/* END AP ad insert fix for mobile */		</style>
+		<!-- WooCommerce Colors -->
+<style type="text/css">
+p.demo_store{background-color:#f67e09;color:#fff;}.woocommerce small.note{color:#777;}.woocommerce .woocommerce-breadcrumb{color:#777;}.woocommerce .woocommerce-breadcrumb a{color:#777;}.woocommerce div.product span.price,.woocommerce div.product p.price{color:#77a464;}.woocommerce div.product .stock{color:#77a464;}.woocommerce span.onsale{background-color:#77a464;color:#fff;}.woocommerce ul.products li.product .price{color:#77a464;}.woocommerce ul.products li.product .price .from{color:rgba(132, 132, 132, 0.5);}.woocommerce nav.woocommerce-pagination ul{border:1px solid #d3ced3;}.woocommerce nav.woocommerce-pagination ul li{border-right:1px solid #d3ced3;}.woocommerce nav.woocommerce-pagination ul li span.current,.woocommerce nav.woocommerce-pagination ul li a:hover,.woocommerce nav.woocommerce-pagination ul li a:focus{background:#ebe9eb;color:#8a7e8a;}.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce #respond input#submit{color:#515151;background-color:#ebe9eb;}.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover,.woocommerce #respond input#submit:hover{background-color:#dad8da;color:#515151;}.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce #respond input#submit.alt{background-color:#f67e09;color:#fff;}.woocommerce a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce #respond input#submit.alt:hover{background-color:#e56d00;color:#fff;}.woocommerce a.button.alt.disabled,.woocommerce button.button.alt.disabled,.woocommerce input.button.alt.disabled,.woocommerce #respond input#submit.alt.disabled,.woocommerce a.button.alt:disabled,.woocommerce button.button.alt:disabled,.woocommerce input.button.alt:disabled,.woocommerce #respond input#submit.alt:disabled,.woocommerce a.button.alt:disabled[disabled],.woocommerce button.button.alt:disabled[disabled],.woocommerce input.button.alt:disabled[disabled],.woocommerce #respond input#submit.alt:disabled[disabled],.woocommerce a.button.alt.disabled:hover,.woocommerce button.button.alt.disabled:hover,.woocommerce input.button.alt.disabled:hover,.woocommerce #respond input#submit.alt.disabled:hover,.woocommerce a.button.alt:disabled:hover,.woocommerce button.button.alt:disabled:hover,.woocommerce input.button.alt:disabled:hover,.woocommerce #respond input#submit.alt:disabled:hover,.woocommerce a.button.alt:disabled[disabled]:hover,.woocommerce button.button.alt:disabled[disabled]:hover,.woocommerce input.button.alt:disabled[disabled]:hover,.woocommerce #respond input#submit.alt:disabled[disabled]:hover{background-color:#f67e09;color:#fff;}.woocommerce a.button:disabled:hover,.woocommerce button.button:disabled:hover,.woocommerce input.button:disabled:hover,.woocommerce #respond input#submit:disabled:hover,.woocommerce a.button.disabled:hover,.woocommerce button.button.disabled:hover,.woocommerce input.button.disabled:hover,.woocommerce #respond input#submit.disabled:hover,.woocommerce a.button:disabled[disabled]:hover,.woocommerce button.button:disabled[disabled]:hover,.woocommerce input.button:disabled[disabled]:hover,.woocommerce #respond input#submit:disabled[disabled]:hover{background-color:#ebe9eb;}.woocommerce #reviews h2 small{color:#777;}.woocommerce #reviews h2 small a{color:#777;}.woocommerce #reviews #comments ol.commentlist li .meta{color:#777;}.woocommerce #reviews #comments ol.commentlist li img.avatar{background:#ebe9eb;border:1px solid #e4e1e4;}.woocommerce #reviews #comments ol.commentlist li .comment-text{border:1px solid #e4e1e4;}.woocommerce #reviews #comments ol.commentlist #respond{border:1px solid #e4e1e4;}.woocommerce .star-rating:before{color:#d3ced3;}.woocommerce.widget_shopping_cart .total,.woocommerce .widget_shopping_cart .total{border-top:3px double #ebe9eb;}.woocommerce form.login,.woocommerce form.checkout_coupon,.woocommerce form.register{border:1px solid #d3ced3;}.woocommerce .order_details li{border-right:1px dashed #d3ced3;}.woocommerce .widget_price_filter .ui-slider .ui-slider-handle{background-color:#f67e09;}.woocommerce .widget_price_filter .ui-slider .ui-slider-range{background-color:#f67e09;}.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content{background-color:#b23a00;}.woocommerce-cart table.cart td.actions .coupon .input-text{border:1px solid #d3ced3;}.woocommerce-cart .cart-collaterals .cart_totals p small{color:#777;}.woocommerce-cart .cart-collaterals .cart_totals table small{color:#777;}.woocommerce-cart .cart-collaterals .cart_totals .discount td{color:#77a464;}.woocommerce-cart .cart-collaterals .cart_totals tr td,.woocommerce-cart .cart-collaterals .cart_totals tr th{border-top:1px solid #ebe9eb;}.woocommerce-checkout .checkout .create-account small{color:#777;}.woocommerce-checkout #payment{background:#ebe9eb;}.woocommerce-checkout #payment ul.payment_methods{border-bottom:1px solid #d3ced3;}.woocommerce-checkout #payment div.payment_box{background-color:#dfdcdf;color:#515151;}.woocommerce-checkout #payment div.payment_box input.input-text,.woocommerce-checkout #payment div.payment_box textarea{border-color:#c7c1c7;border-top-color:#bab4ba;}.woocommerce-checkout #payment div.payment_box ::-webkit-input-placeholder{color:#bab4ba;}.woocommerce-checkout #payment div.payment_box :-moz-placeholder{color:#bab4ba;}.woocommerce-checkout #payment div.payment_box :-ms-input-placeholder{color:#bab4ba;}.woocommerce-checkout #payment div.payment_box span.help{color:#777;}.woocommerce-checkout #payment div.payment_box:after{content:"";display:block;border:8px solid #dfdcdf;border-right-color:transparent;border-left-color:transparent;border-top-color:transparent;position:absolute;top:-3px;left:0;margin:-1em 0 0 2em;}
+</style>
+<!--/WooCommerce Colors-->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-592KTD');</script>
+<!-- End Google Tag Manager -->
+
+<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+
+<meta name="ahrefs-site-verification" content="90a9e33db54a5fa05617a25bbd4650efa5fd632c94919063b1d7ec326a1e133b">
+
+<script>
+!function (w, d, t) {
+w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("scr
+ipt")[0];a.parentNode.insertBefore(o,a)};
+
+ttq.load('C6CV6PTMP02182KUV4S0');
+ttq.page();
+}(window, document, 'ttq');
+</script>
+
+<!-- begin Convert Experiences code--><script type="text/javascript" src="//cdn-4.convertexperiments.com/js/10007840-10007314.js"></script><!-- end Convert Experiences code -->
+
+<script>
+ (function(w,d,s,i,u,a) {
+   w._searchie = {widget:i, url:u, user:a};var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async = true;j.src='https://app.membership.io/js/js-popup.js?' + Date.now();f.parentNode.insertBefore(j,f);
+ })(window, document, 'script', 'RBD2ave1qo', 'https://app.membership.io');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-19RXF7CJJ2&l=dataLayerPYS"></script>
+<script>
+  window.dataLayerPYS = window.dataLayerPYS || [];
+  function gtag(){dataLayerPYS.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-19RXF7CJJ2');
+</script>
+<script async src="https://www.googleoptimize.com/optimize.js?id=OPT-MGPCXC5"></script>
+</head>
+<body class="error404 theme-bb-theme fl-builder-2-9-2-1 fl-themer-1-5-1 fl-theme-1-7-18-1 fl-no-js woocommerce-no-js fl-theme-builder-404 fl-theme-builder-404-404-page fl-theme-builder-part fl-theme-builder-part-wptgold fl-framework-base fl-preset-default fl-full-width fl-search-active"  >
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-592KTD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->	<script>
+		const theme = localStorage.getItem('upswing-body-theme') || 'upswing-theme-light';
+		document.body.classList.add(...theme.split(" "));
+
+		function setHeaderData(username, cartSize, has_lab) {
+			const header = document.getElementById("header-background");
+
+			if(username !== null) {
+				document.querySelectorAll("[full-username]").forEach(e => e.innerHTML = username);
+				if(header) header.classList.add("upswing-is-logged-in");
+			} else {
+				document.querySelectorAll("[full-username]").forEach(e => e.setAttribute("full-username", ''));
+				if(header?.classList?.contains("upswing-is-logged-in")) {
+					header.classList.remove("upswing-is-logged-in");
+				}
+			}
+			
+			const cartContent = Number(cartSize);
+			document.querySelectorAll("[cart-content-count]").forEach(e => e.setAttribute("cart-content-count", (isNaN(cartContent) || cartContent < 1) ? 0 : cartContent));
+
+			document.querySelectorAll("[has-lab]").forEach(e => e.setAttribute("has-lab", has_lab ? 1 : 0));
+		}
+
+		function update_user_info_by_ajax() {
+			fetch("https://upswingpoker.com/wp-content/plugins/upswing-custom-header/ajax-user-info.php", {
+				method: 'GET',
+				credentials: 'include',
+				headers: {
+					"dataType": "json"
+				}
+			})
+			.then(response => response.json())
+			.then(({ username, basket_size, has_lab }) => {
+				if(document.readyState == "loading") {
+					window.addEventListener('DOMContentLoaded', (event) => {
+						setHeaderData(username, basket_size, has_lab);
+					});
+				} else {
+					setHeaderData(username, basket_size, has_lab);
+				}
+			})
+			.catch(err => {
+				console.log(err);
+			});
+		}
+
+		update_user_info_by_ajax();
+	</script>
+
+	<svg viewBox="0 0 0 0" height="0" width="0" style="display:none">
+		<path id="logo-upswing-p" d="m67.17 49.06c0-5.62-1.53-9.7-3.4-11.97-1.87-2.27-5.81-3.35-10.38-3.35h-9.05v30.07h9.05c4.38 0 9.13-1.05 11.1-3.38C66.46 58.11 67.17 54.3 67.17 49.06m7.55-.09c0 10.92-7.24 16.38-21.71 16.38h-8.67v26.74c0 0-.23 1.39 1.78 1.9 1.73.44 8.03.39 8.03.39v1.63h-27.91v-1.63c0 0 6.64-.27 8-.87 1.23-.55 1.38-1.47 1.38-1.47v-58.27h-9.38v-1.63h26.76C67.48 32.12 74.72 37.74 74.72 48.98"/>
+		<path id="logo-upswing-u" d="M64.31 10.86C63.87 10.08 62.85 8.98 61.24 7.53 59.62 6.08 58.5 4.87 57.87 3.89 57.24 2.91 56.77 1.8 56.47.55 56.24 1.57 55.94 2.45 55.55 3.2 55.16 3.95 54.54 4.8 53.68 5.76 53.13 6.38 52.26 7.17 51.08 8.13c-1.18.96-2.03 1.91-2.55 2.85-.39.68-.58 1.44-.58 2.28 0 1.05.38 1.95 1.13 2.7.75.75 1.65 1.12 2.7 1.12.98 0 1.86-.27 2.63-.82.48-.34.91-.8 1.3-1.35v47.62c0 9.92-4.75 14.88-14.24 14.88-4.53 0-7.8-.92-9.81-2.76-2.01-1.84-3.02-4.97-3.02-9.4v-48.66h9.62v-1.59h-27.54v1.59h9.71v48.09c0 9.54 6.51 14.32 19.52 14.32 11.69 0 17.54-5.49 17.54-16.47v-47.43c.35.45.73.84 1.13 1.14.74.56 1.57.84 2.48.84 1.07 0 1.98-.37 2.73-1.11.75-.74 1.12-1.66 1.12-2.77C64.95 12.41 64.74 11.63 64.31 10.86"/>
+		<path id="logo-upswing-diamond" d="m5.44 103.39c.6 1.02 1.34 2.11 2.21 3.28 1.01 1.35 1.83 2.37 2.45 3.06-.5.53-1.32 1.54-2.45 3.06-.92 1.23-1.65 2.33-2.21 3.3-.18-.35-.43-.76-.75-1.22-.55-.81-1.22-1.75-2.03-2.82-.17-.24-.79-1.01-1.85-2.31.68-.78 1.56-1.88 2.63-3.32C4.24 105.35 4.9 104.34 5.44 103.39"/>
+		<path id="logo-upswing-spade" d="M30.35 102.74C30.53 103.48 30.8 104.15 31.18 104.74 31.55 105.33 32.22 106.06 33.17 106.92 34.13 107.79 34.74 108.46 35 108.92 35.25 109.38 35.38 109.86 35.38 110.33 35.38 111 35.16 111.55 34.72 111.99 34.27 112.43 33.73 112.66 33.1 112.66 32.56 112.66 32.07 112.49 31.63 112.15 31.19 111.82 30.8 111.33 30.46 110.68 30.47 111.7 30.6 112.51 30.86 113.11 31.12 113.71 31.53 114.18 32.1 114.52 32.68 114.86 33.44 115.06 34.38 115.13L34.46 115.51 26.23 115.51 26.31 115.13C27.58 115.13 28.57 114.75 29.27 114.01 29.97 113.27 30.31 112.16 30.28 110.68 29.97 111.34 29.59 111.83 29.13 112.16 28.67 112.49 28.15 112.66 27.57 112.66 26.94 112.66 26.41 112.43 25.96 111.98 25.52 111.53 25.29 110.99 25.29 110.36 25.29 109.86 25.41 109.4 25.64 108.99 25.95 108.43 26.45 107.86 27.15 107.28 27.85 106.71 28.37 106.23 28.7 105.86 29.2 105.28 29.57 104.77 29.8 104.32 30.03 103.87 30.22 103.34 30.35 102.74"/>
+		<path id="logo-upswing-heart" d="m55.01 116c-.21-.8-.51-1.56-.9-2.26-.39-.71-1.15-1.8-2.27-3.28-.82-1.09-1.33-1.78-1.52-2.08-.31-.48-.54-.91-.68-1.31-.14-.4-.21-.8-.21-1.21 0-.76.25-1.39.76-1.9.5-.51 1.13-.77 1.87-.77.75 0 1.4.27 1.95.8C54.41 104.38 54.75 104.97 55.01 105.75c.23-.77.54-1.36.95-1.76.57-.54 1.22-.82 1.96-.82.74 0 1.36.25 1.87.76C60.3 104.45 60.56 105.05 60.56 105.75 60.56 106.37 60.41 107 60.11 107.67 59.81 108.33 59.23 109.2 58.37 110.28 57.25 111.69 56.44 112.85 55.93 113.75 55.53 114.47 55.22 115.22 55.01 116"/>
+		<path id="logo-upswing-club" d="m83.28 116h-8.51l.08-.34c1.11-.23 1.84-.46 2.2-.69.54-.34.99-.85 1.33-1.52.34-.67.52-1.38.52-2.12 0-.11 0-.26-.01-.46C78.47 111.7 77.97 112.31 77.39 112.69 76.8 113.07 76.21 113.26 75.6 113.26c-.78 0-1.44-.27-1.98-.81-.54-.54-.81-1.21-.81-2 0-.78.25-1.43.74-1.96.5-.53 1.06-.8 1.69-.8.4 0 .95.17 1.64.51-.28-.47-.46-.82-.55-1.06-.08-.24-.13-.49-.13-.77 0-.76.26-1.41.79-1.94.53-.53 1.19-.79 1.98-.79.79 0 1.45.27 1.99.79.54.53.81 1.16.81 1.89 0 .6-.23 1.22-.69 1.88.56-.27.9-.42 1.01-.45.18-.05.39-.08.61-.08.67 0 1.25.26 1.74.79C84.94 108.98 85.18 109.63 85.18 110.41 85.18 111.21 84.92 111.89 84.38 112.43 83.84 112.98 83.19 113.25 82.43 113.25c-.42 0-.85-.1-1.3-.31-.45-.2-.83-.48-1.16-.82-.23-.25-.52-.66-.87-1.25.03 1.06.19 1.91.49 2.52.3.62.75 1.13 1.37 1.54.41.27 1.16.52 2.24.72z"/>
+		<path id="logo-bat" d="M14 0H14V5H0Q4 7 4 10 7 9 10 14 15 13 17 17 19 13 24 14 27 9 30 10 30 7 34 5H21V0L19 2H16Z"/>			
+		<path id="upswing-cart-icon" d="M16 2H14L12 10H3L2 4H13.5M11 12A1 1 0 0011 15 1 1 0 0011 12H4A1 1 0 004 15 1 1 0 004 12"/>
+		<path id="upswing-logout-icon" d="M16 18h-4a2 2 0 01-2-2v-2h2v2h4V4h-4v2h-2V4a2 2 0 012-2h4a2 2 0 012 2v12a2 2 0 01-2 2zM7 5l1.5 1.5L6 9h8v2H6l2.5 2.5L7 15l-5-5 5-5z"/>
+		<path id="upswing-cog-icon" d="M389 259c1-6 1-13 1-19s-1-13-1-19l42-33c4-3 5-8 2-13l-40-69c-3-4-8-6-12-4l-50 20c-10-8-22-15-34-20l-8-53c-1-5-5-8-10-8h-80c-5 0-9 4-10 8l-8 53c-12 5-24 12-34 20l-50-20c-5-2-10 0-12 4l-40 69c-3 4-1 10 2 13l42 33c-1 6-1 13-1 19s1 13 1 19l-42 33c-4 3-5 8-2 13l40 69c3 4 8 6 12 4l50-20c10 8 22 15 34 20l8 53c1 5 5 8 10 8h80c5 0 9-4 10-8l8-53c12-5 24-12 34-20l50 20c5 2 10 0 12-4l40-69c3-4 1-10-2-13l-42-33zm-149 50c-39 0-70-31-70-70s31-70 70-70 70 31 70 70-31 70-70 70z"/>
+	</svg>
+	<header id="header-background">
+		<div id="header-container">
+			<a id="header-upswing-logo-container" href="https://upswingpoker.com/">
+				<div id="upswing-logo">
+					<span id="upswing-logo-upswing">
+						<u>U</u>p<u>s</u>w<u>i</u>n<u>g</u>
+					</span>
+					<svg viewBox="-150 0 387 116">
+						<use class="logo-upswing-p" href="#logo-upswing-p"/>
+						<use class="logo-upswing-u" href="#logo-upswing-u"/>
+
+						<g id="upswing-logo-suits">
+							<use class="logo-upswing-diamond" href="#logo-upswing-diamond"/>
+							<use class="logo-upswing-spade" href="#logo-upswing-spade"/>
+							<use class="logo-upswing-heart" href="#logo-upswing-heart"/>
+							<use class="logo-upswing-club" href="#logo-upswing-club"/>
+						</g>
+
+						<g id="upswing-logo-st-patrick">
+							<use class="logo-upswing-diamond" href="#logo-upswing-club" transform="translate(-72 0)"/>
+							<use class="logo-upswing-spade" href="#logo-upswing-club" transform="translate(-48 0)"/>
+							<use class="logo-upswing-heart" href="#logo-upswing-club" transform="translate(-24 0)"/>
+							<use class="logo-upswing-club" href="#logo-upswing-club"/>
+						</g>
+
+						<g id="upswing-logo-valentines">
+							<use class="logo-upswing-diamond" href="#logo-upswing-heart" transform="translate(-72 0)"/>
+							<use class="logo-upswing-spade" href="#logo-upswing-heart" transform="translate(-48 0)"/>
+							<use class="logo-upswing-heart" href="#logo-upswing-heart" transform="translate(-24 0)"/>
+							<use class="logo-upswing-club" href="#logo-upswing-heart"/>
+						</g>
+				
+						<g id="upswing-logo-bats">
+							<use transform="translate(-100 5) scale(0.5) rotate(5)" href="#logo-bat" />
+							<use transform="translate(-36 28) scale(1.16) rotate(-15)" href="#logo-bat" />
+							<use transform="translate(-88 26) scale(0.72) rotate(-10)" href="#logo-bat" />
+							<use transform="translate(-58 0) scale(0.96) rotate(10)" href="#logo-bat" />
+
+							<use transform="translate(78 5) scale(0.6) rotate(-12)" href="#logo-bat" />
+							<use transform="translate(120 0) scale(0.48) rotate(15)" href="#logo-bat" />
+							<use transform="translate(86 32) scale(0.6)" href="#logo-bat" />
+							<use transform="translate(113 15) scale(0.96) rotate(10)" href="#logo-bat" />
+							<use transform="translate(155 10) scale(1.2) rotate(20)" href="#logo-bat" />
+						</g>
+					</svg>
+					<span id="upswing-logo-poker">P<u>o</u>k<u>e</u>r</span>
+									</div>
+			</a>
+			<div class="sub-header extra-background"></div>
+			<div class="sub-header header-background">
+				<div class="sub-header header-container">
+					<nav class="sub-header left-link">
+						
+					<a id='upswing-members-link' title='Members Home' href='https://members.upswingpoker.com' rel='nofollow' class='header-link'>Members Home</a>	
+					<a title="Preflop Prodigy" href="https://members.upswingpoker.com/ranges/" class="header-link preflop-prodigy-menu" style="margin-left: 10px;" target="_blank">Preflop Prodigy App</a>
+					<a title="Preflop Prodigy" href="https://upswingpoker.com/preflop/" class="header-link preflop-prodigy-menu-2" style="margin-left: 10px;">Preflop Prodigy App</a>					
+					</nav>
+					</nav>
+					<nav class="sub-header header-content">
+						<a title="Search" href="https://upswingpoker.com/search-upswing-poker/" class="header-link">
+							<svg id="magnifying-glass-icon" class="sub-header-icon" fill="none" stroke-width="3" viewBox="-3 -3 20 30">
+								<path d="M7 14A1 1 0 007 0 1 1 0 007 14V24Z"/>
+							</svg>
+						</a>
+						<a title="Merch Store" href="https://upswingpoker.com/shop/" class="header-link">Merch</a>
+						<a title="Frequently Asked Questions" href="https://upswingpoker.com/f-a-q/" class="header-link">FAQ</a>
+						<a title="Contact Us" href="https://upswingpoker.com/contact-us/" class="header-link">Contact</a>
+						<a title="Shopping Cart" href="https://upswingpoker.com/shop/cart/" class="header-link" id="sub-header-cart" cart-content-count="0">
+							<svg id="shopping-cart-icon" class="sub-header-icon" width="17px" height="16px" fill="none" stroke-width="1" viewBox="0 0 18 17">
+								<use href="#upswing-cart-icon"/>
+							</svg>
+						</a>
+						<!--<span class="logged-out-only header-link">-->
+							<a title="Log In" rel="nofollow" href="https://members.upswingpoker.com/wp-login.php" class="logged-out-only header-link">Log In</a>
+							<a title="Sign Up" href="https://upswingpoker.com/join/" id="header-sign-up" class="logged-out-only header-link">Sign Up</a>
+						<!--</span>-->
+
+						<button id="user-menu-button" for="user-menu-checkbox" class="logged-in-only header-link menu-close">
+							<span full-username class="header-link-text"></span>
+							<div id="user-menu-container" class="menu-dropdown">
+								<div id="user-menu">
+									<a class="user-menu-item" href="https://upswingpoker.com/account/">
+										<svg viewbox="0 0 480 480" width="18px" height="18px">
+											<use href="#upswing-cog-icon"/>
+										</svg>
+										<span class="user-menu-label">Manage Account</span>
+									</a>
+
+									<a class="user-menu-item" rel="nofollow" href="https://members.upswingpoker.com">
+										<svg viewbox="-5 -5 110 110" width="18px" height="18px">
+											<path d="M63 10c-5 0-9 2-12 6C48 12 44 10 39 10H0v71h39c1 4 5 8 12 8 7 0 11-4 13-8H100V10H63zM63 17h30v50H68c-7 0-11 2-14 5V26C55 21 58 17 63 17zM7 17h32c5 0 8 4 8 8v47c-2-3-6-5-14-5H7V17z"/>
+										</svg>
+										<span class="user-menu-label">My Resources</span>
+									</a>
+<!--
+									<input has-lab=0 type="checkbox" class="expandable-menu-checkbox" id="preflop-charts-checkbox"/>
+									<label has-lab=0 tabindex="-1" for="preflop-charts-checkbox" class="user-menu-item">
+										<svg stroke-width="0.5px" viewbox="0 0 10 10" width="18px" height="18px">
+											<path d="M1 1H9M1 3H9M1 5H9M1 7H9M1 9H9V1M7 9V1M5 9V1M3 9V1M1 9V1"/>
+										</svg>
+										<span class="user-menu-label">Preflop Charts</span>
+									</label>
+									<div has-lab=0 class="expandable-sub-menu-items">
+										<a rel="nofollow" href="https://members.upswingpoker.com/chart-viewer/?gameType=online-cash#">Online Cash Ranges</a>
+										<a rel="nofollow" href="https://members.upswingpoker.com/chart-viewer/?gameType=live-cash#">Live Cash Ranges</a>
+										<a rel="nofollow" href="https://members.upswingpoker.com/chart-viewer/?gameType=mtt#">MTT Ranges</a>
+										<a rel="nofollow" href="https://members.upswingpoker.com/solver-preflop-ranges/">Advanced Solver Ranges</a>
+										<a rel="nofollow" href="https://members.upswingpoker.com/advanced-mtt-ranges/">Advanced Tourney Ranges</a>
+										<a rel="nofollow" href="https://members.upswingpoker.com/dougiedans-hu-ranges/">Heads-Up Ranges</a>
+										<a rel="nofollow" href="https://members.upswingpoker.com/lab-preflop-chart-guide/">Preflop Charts Guide</a>
+									</div>
+-->
+									<a class="user-menu-item" href="https://upswingpoker.com/wp-login.php?action=logout&amp;_wpnonce=994658cda3">
+										<svg viewbox="0 0 20 20" width="18px" height="18px">
+											<path d="M16 18h-4a2 2 0 01-2-2v-2h2v2h4V4h-4v2h-2V4a2 2 0 012-2h4a2 2 0 012 2v12a2 2 0 01-2 2zM7 5l1.5 1.5L6 9h8v2H6l2.5 2.5L7 15l-5-5 5-5z"/>
+										</svg>
+										<span class="user-menu-label">Log Out</span>
+									</a>
+								</div>
+							</div>
+						</button>
+					</nav>
+				</div>
+			</div>
+			<div class="main-header header-container">
+				<nav class="main-header header-content">
+					<span tabindex="0" id="header-training" class="header-button">
+						<span class="header-button-text">Training</span>
+						<div id="training-menu-container" class="menu-dropdown">
+							<div id="training-menu">
+								<div id="training-menu-entries">
+									<div class='upswing-training-menu-sub-group'>	<button tabindex="2" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/plo-launch-pad/" class="training-menu-link">
+<span class='upswing-course-title'>PLO Launch Pad</span><span class='upswing-course-author'>by Dylan Weisman</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/launchpad.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">Learn to feel comfortable and confident playing the great game of PLO.</span>
+	<a href="https://upswingpoker.com/plo-launch-pad/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+	<button tabindex="1" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/postflop-playbook/" class="training-menu-link">
+<span class='upswing-course-title'>The <span class="upswing-text-highlight">$7</span> Postflop Playbook</span><span class='upswing-course-author'>for No Limit Hold'em</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/playbook.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">Make quick, high-quality, profitable poker decisions based on hand categories.</span>
+	<a href="https://upswingpoker.com/postflop-playbook/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+<span class='upswing-training-menu-header'>Introductory Courses</span></div><div class='upswing-training-menu-sub-group'>	<button tabindex="3" class="upswing-training-menu-item default-selected-item">
+	<a href="https://upswingpoker.com/the-poker-lab-coaching/" class="training-menu-link">
+	<div id='upswing-vial-container'>
+		<svg viewBox='0 0 100 100' width='30px' height='35px'>
+			<defs>
+			<mask id='upswing-vial-mask'>
+				<rect fill='black' x='0' y='0' width='100' height='100'/>
+				<path fill='white' d='m41 0h18v60l29 33c2 2 2 2 0 2l-76 0c-2 0-2 0 0-2l29-33z'/>
+			</mask>
+			<path id='upswing-vial-shape' d='m62 25a1 1 90 010 8l0 25 30 35c5 5 0 5 0 5l-84 0c0 0-5 0 0-5l30-35 0-25a1 1 90 010-8z'>
+			</defs>
+			<use id='upswing-vial-background' stroke-width='0.8' href='#upswing-vial-shape' />
+			<g mask='url(#upswing-vial-mask)'>
+				<path id='upswing-vial-liquid' d='M0 77c8 0 16-5 25-5s16 5 25 5 16-5 25-5 16 5 25 5 16-5 25-5 16 5 25 5 16-5 25-5 16 5 25 5v25h-200z'/>
+			</g>
+			<use id='upswing-vial-outline' href='#upswing-vial-shape' />
+		</svg>
+		<div id='upswing-bubble-container'>
+			<span style='width: 20%; left: 20%; --duration: 3s; --delay: -1.70s'></span>
+			<span style='width: 25%; left: 50%; --duration: 3.5s; --delay: -1.40s'></span>
+			<span style='width: 30%; left: 60%; --duration: 3s; --delay: -2.20s'></span>
+			<span style='width: 25%; left: 25%; --duration: 2.5s; --delay: -2.40s'></span>
+		</div>
+	</div>
+<span class='upswing-course-title'>Upswing Lab</span><span class='upswing-course-author'>No Limit Hold'em Membership</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/lab.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">This is what we would teach our younger selves, if we could send it back in time.<span class='training-preview-extra'>New videos added weekly!</span></span>
+	<a href="https://upswingpoker.com/the-poker-lab-coaching/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+<span class='upswing-training-menu-header'>Most Popular Course</span></div><div class='upswing-training-menu-sub-group'>	<button tabindex="11" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/red-line-rocketship-with-uri-peleg/" class="training-menu-link">
+<span class='upswing-course-title'>Redline Rocketship</span><span class='upswing-course-author'>by Uri Peleg</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/rocketship.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">Increase your bottom line by winning more pots without having to show your cards.</span>
+	<a href="https://upswingpoker.com/red-line-rocketship-with-uri-peleg/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+	<button tabindex="10" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/mixed-games-poker/" class="training-menu-link">
+<span class='upswing-course-title'>Mixed Game Mastery</span><span class='upswing-course-author'>by Jake Abdalla</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/mixedgames.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">Immediately improve your Mixed Game strategy and win more money.</span>
+	<a href="https://upswingpoker.com/mixed-games-poker/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+	<button tabindex="9" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/the-end-boss-system/" class="training-menu-link">
+<span class='upswing-course-title'>Heads-Up Master Class</span><span class='upswing-course-author'>by Doug Polk & Fabian Adler</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/endboss.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">Doug Polk and his longtime coach have a new heads-up master class!</span>
+	<a href="https://upswingpoker.com/the-end-boss-system/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+	<button tabindex="8" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/elite-cash-game-exploits/" class="training-menu-link">
+<span class='upswing-course-title'>Elite Cash Game Exploits</span><span class='upswing-course-author'>by Uri Peleg</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/elitecash.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">Become an exploitative machine.</span>
+	<a href="https://upswingpoker.com/elite-cash-game-exploits/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+	<button tabindex="7" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/advanced-plo-mastery/" class="training-menu-link">
+<span class='upswing-course-title'>Advanced PLO Mastery</span><span class='upswing-course-author'>by Dylan Weisman &amp; Chris Wehner</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/plomastery.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">Become an end boss with this comprehensive Pot Limit Omaha Training Course.</span>
+	<a href="https://upswingpoker.com/advanced-plo-mastery/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+	<button tabindex="6" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/smash-live-cash/" class="training-menu-link">
+<span class='upswing-course-title'>Smash Live Cash Games</span><span class='upswing-course-author'>by Nick Petranglo</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/smashcash.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">Win the MAX in live poker games.</span>
+	<a href="https://upswingpoker.com/smash-live-cash/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+	<button tabindex="5" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/road-to-victory/" class="training-menu-link">
+<span class='upswing-course-title'>Tournament Mastery</span><span class='upswing-course-author'>by Top Tournament Pros</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/rtvmenu.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">The Ultimate Tournament Course.</span>
+	<a href="https://upswingpoker.com/road-to-victory/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+	<button tabindex="4" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/poker-blueprint/" class="training-menu-link">
+<span class='upswing-course-title'>The Poker Blueprint</span><span class='upswing-course-author'>by Uri Peleg</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/pokerblueprintcomingsoon.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">Get Uri Peleg's Winning Poker Blueprint</span>
+	<a href="https://upswingpoker.com/poker-blueprint/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+<span class='upswing-training-menu-header'>Signature Courses</span></div><div class='upswing-training-menu-sub-group'>	<button tabindex="13" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/plo-matrix/" class="training-menu-link">
+<span class='upswing-course-title'>PLO Matrix</span><span class='upswing-course-author'>Preflop Tool</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/plomatrix.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">A precise and easy to use visual representation of GTO preflop ranges for 4 and 5 card Pot Limit Omaha.</span>
+	<a href="https://upswingpoker.com/plo-matrix/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+	<button tabindex="12" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/lucid-gto-trainer/" class="training-menu-link">
+	<div id='lucid-menu-icon-container'>
+		<img src='/wp-content/plugins/upswing-custom-header/res/lucid.svg?ver=1.1.11' id='lucid-menu-icon'/>
+	</div>
+<span class='upswing-course-title'>Lucid Poker</span><span class='upswing-course-author'>New Trainer Tool</span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-img-container">
+		<img class="training-preview-img" src="/wp-content/plugins/upswing-custom-header/res/courses-dropdown/lucidpoker.webp?ver=1.1.11"/>
+	</span>
+	<span class="training-preview-blerb">Improve your cash game skills fast with this game-changing tool.</span>
+	<a href="https://upswingpoker.com/lucid-gto-trainer/" class="training-preview-button">Learn More</a>
+	</div></div></button>
+</div><div class='upswing-training-menu-sub-group'>	<button tabindex="14" class="upswing-training-menu-item">
+	<a href="https://upswingpoker.com/advanced-poker-training/" class="training-menu-link">
+<span class='upswing-course-title'>Explore All Our Courses Here</span><span class='upswing-course-author'><span class="symbol-font" style="font-size: 22px; color: inherit;">&raquo;</span></span>	</a>
+	<div class="training-preview-container"><div class="training-menu-preview">
+	<span class="training-preview-just-text"><span style="font-size: 20px; text-transform: capitalize; font-weight: bold; margin-bottom: 24px;">Explore the complete offering of upswing courses</span>Hundreds of hours of content from the world's greatest poker minds.</span>
+	<a href="https://upswingpoker.com/advanced-poker-training/" class="training-preview-button">Go There</a>
+	</div></div></button>
+</div>								</div>
+							</div>
+						</div>
+					</span>
+
+					<a id="header-lucid" class="header-button" href="https://upswingpoker.com/lucid-gto-trainer/">
+						<span class="free-stuff-in-header">New</span>
+						<span class="header-button-text">Lucid Poker</span>
+					</a>
+					
+					<a id="header-articles" class="header-button" href="https://upswingpoker.com/blog/">
+						<span class="header-button-text">Articles</span>
+					</a>
+
+					<a id="header-quizzes" class="header-button" href="https://upswingpoker.com/category/poker-quizzes/">
+						<span class="header-button-text">Quizzes</span>
+					</a>
+
+					<a id="header-reviews" class="header-button" href="https://upswingpoker.com/upswing-poker-lab-review/">
+						<span class="header-button-text">Reviews</span>
+					</a>
+
+					<a id="header-pros" class="header-button" href="https://upswingpoker.com/about-us/">
+						<span class="header-button-text">Our Pros</span>
+					</a>
+
+					<a id="header-free" class="header-button" href="https://upswingpoker.com/preflop/">
+						<span class="free-stuff-in-header">Free</span>
+						<span class="header-button-text">Preflop Ranges</span>
+						<div id="free-stuff-menu-container">
+							<div id="free-stuff-menu">
+								<!--
+								<a id="free-stuff-news-letter" href="https://upswingpoker.com/join/">
+									<img src="/wp-content/plugins/upswing-custom-header/res/newsletter_icon.png?ver=1.1.11"/>
+									<span class="free-stuff-blerb" prefix="Get">Upswing Newsletter</span>
+								</a>
+								<a id="free-stuff-short-deck" href="https://upswingpoker.com/short-deck-guide/">
+									<img src="/wp-content/plugins/upswing-custom-header/res/shortdeck_free_icon.png?ver=1.1.11"/>
+									<span class="free-stuff-blerb" prefix="Get">Short Deck Hold'em Guide</span>
+								</a>
+								<a id="free-stuff-grudge" href="https://upswingpoker.com/hu4grudge-insights/">
+									<img src="/wp-content/plugins/upswing-custom-header/res/grudgematch_free_icon.png?ver=1.1.11"/>
+									<span class="free-stuff-blerb" prefix="Get">Doug Vs Daniel Insight</span>
+								</a>
+								<a id="free-stuff-3bet" href="https://upswingpoker.com/20-rules-to-crush-your-competition-in-3-bet-pots/">
+									<img src="/wp-content/plugins/upswing-custom-header/res/3bet_free_icon.png?ver=1.1.11"/>
+									<span class="free-stuff-blerb" prefix="Get">3-bet Pot Strategies</span>
+								</a>
+								
+
+								<a id="free-stuff-preflop" href="https://upswingpoker.com/preflop/">
+									<img src="/wp-content/plugins/upswing-custom-header/res/free_preflop_chartsv2.webp?ver=1.1.11"/>
+									<span class="free-stuff-blerb" prefix="Get">Hold'em Preflop Charts</span>
+								</a>
+								<a id="free-stuff-hand-converter" href="https://upswingpoker.com/convert/">
+									<img src="/wp-content/plugins/upswing-custom-header/res/hand_converter_icon.webp?ver=1.1.11"/>
+									<span class="free-stuff-blerb" prefix="Use">Hand Converter &amp; Replayer</span>
+								</a>
+								
+								<a id="free-stuff-plo" href="https://upswingpoker.com/plo-preflop-guide/">
+									<img src="/wp-content/plugins/upswing-custom-header/res/PLO_free_icon.png?ver=1.1.11"/>
+									<span class="free-stuff-blerb" prefix="Get">PLO Preflop Guide</span>
+								</a>
+								
+								<a id="free-stuff-live-poker" href="https://upswingpoker.com/10-laws-of-live-poker/">
+									<img src="/wp-content/plugins/upswing-custom-header/res/live_poker_free_icon.webp?ver=1.1.11"/>
+									<span class="free-stuff-blerb" prefix="Get">The Laws Of Live Poker</span>
+								</a>
+								<a id="free-stuff-level-up" href="https://upswingpoker.com/podcast/">
+									<img src="/wp-content/plugins/upswing-custom-header/res/levelup_free_icon.webp?ver=1.1.11"/>
+									<span class="free-stuff-blerb" prefix="Listen">Level-Up Podcast</span>
+								</a>
+								-->
+							</div>
+						</div>
+					</a>
+				</nav>
+			</div>
+		</div>
+		<!--
+		<a id="upswing-mobile-header-contact" title="Contact" href="https://upswingpoker.com/contact-us/">
+			<svg viewBox="0.5 0.5 8 6" width="60px" height="45px" fill="none" stroke-width="1">
+				<path d="M1 1H7V5H1V1L4 3 7 1"/>
+			</svg>
+		</a>
+		-->
+		<input type="checkbox" class="expandable-menu-checkbox" id="upswing-header-hamburger-checkbox" onchange="if(this.checked) document.documentElement.classList.add('mobile-menu-open'); else document.documentElement.classList.remove('mobile-menu-open')"/>
+		<label cart-content-count="0" id="upswing-header-hamburger" for="upswing-header-hamburger-checkbox">
+			<div></div><div></div><div></div>
+		</label>
+		<div id="upswing-mobile-menu">
+			<div id="mobile-menu-top-bar">
+				<a  title="Account Settings" id="mobile-username" class="logged-in-only" href="https://upswingpoker.com/account/">
+					<svg viewbox="0 0 480 480" width="22px" height="22px">
+						<use href="#upswing-cog-icon"/>
+					</svg>
+					<span full-username></span>
+				</a>
+				<a title="Log In" id="mobile-log-in-button" rel="nofollow" class="logged-out-only" href="https://members.upswingpoker.com/wp-login.php">Log In</a>
+				<a title="Cart" cart-content-count="0" id="mobile-menu-cart" href="https://upswingpoker.com/shop/cart/">
+					<svg width="26px" height="25px" fill="none" stroke-width="1" viewBox="0 0 18 17">
+						<use href="#upswing-cart-icon"/>
+					</svg>
+				</a>
+			</div>
+			<a title="Member Home" rel="nofollow" href="https://members.upswingpoker.com">Member Home</a>
+			<a title="Preflop Prodigy" href="https://members.upswingpoker.com/ranges/" class="preflop-prodigy-mobile-menu">Preflop Prodigy App</a>
+			<a title="Articles" href="https://upswingpoker.com/blog/">Articles</a>
+			<a title="Free Preflop Ranges" href="https://upswingpoker.com/preflop/"><span class="upswing-text-highlight">Free</span> Preflop Ranges</a>
+			<a title="All Poker Training" href="https://upswingpoker.com/advanced-poker-training/">All Poker Training</a>
+			<div class="upswing-mobile-sub-menu">
+				<a title="The $7 Postflop Playbook" href="https://upswingpoker.com/postflop-playbook/">
+					<span>The <span class="upswing-text-highlight">$7</span> Postflop Playbook</span><br>
+					<span class="upswing-mobile-author">for No Limit Hold'em</span>
+				</a>
+				<a title="The Upswing No Limit Hold'em Lab" href="https://upswingpoker.com/the-poker-lab-coaching/">
+					<span class="upswing-mobile-author">Most Popular</span> <span>The Upswing Lab</span><br>
+					<span class="upswing-mobile-author">Hold'em Membership</span><br>					
+				</a>
+				<a title="Lucid Poker" href="https://upswingpoker.com/lucid-gto-trainer/">
+					<span>Lucid Poker</span><br>
+					<span class="upswing-mobile-author">New* Cash Game Trainer*</span>
+				</a>
+				<a title="The PLO Launch Pad by Dylan Weisman" href="https://upswingpoker.com/plo-launch-pad/">
+					<span>PLO Launch Pad</span><br>
+					<span class="upswing-mobile-author">by Dylan Weisman</span>
+				</a>
+				<a title="The Poker Blueprint" href="https://upswingpoker.com/poker-blueprint/">
+					<span>The Poker Blueprint</span><br>
+					<span class="upswing-mobile-author">by Uri Peleg</span>
+				</a>
+				<a title="Road To Victory by Top Tournament Pros" href="https://upswingpoker.com/road-to-victory/">
+					<span>Tournament Mastery</span><br>
+					<span class="upswing-mobile-author">by Top Tournament Pros</span>
+				</a>
+				<a title="Smash Live Cash by Nick Petranglo" href="https://upswingpoker.com/smash-live-cash/">
+					<span>Smash Live Cash Games</span><br>
+					<span class="upswing-mobile-author">by Nick Petranglo</span>
+				</a>
+				<a title="Advanced PLO Mastery by Dylan Weisman and Chris Wehner" href="https://upswingpoker.com/advanced-plo-mastery/">
+					<span>Advanced PLO Mastery</span><br>
+					<span class="upswing-mobile-author">by Dylan Weisman &amp; Chris Wehner</span>
+				</a>
+				<a title="Elite Cash Game Exploits by Uri Peleg" href="https://upswingpoker.com/elite-cash-game-exploits/">
+					<span>Elite Cash Game Exploits</span><br>
+					<span class="upswing-mobile-author">by Uri Peleg</span>
+				</a>
+				<a title="The End Boss System by Doug Polk" href="https://upswingpoker.com/the-end-boss-system/">
+					<span>Heads-Up Master Class</span><br>
+					<span class="upswing-mobile-author">by Doug Polk & Fabian Adler</span>
+				</a>
+				<a title="Mixed Games Course by Jake Abdalla" href="https://upswingpoker.com/mixed-games-poker/">
+					<span>Mixed Game Mastery</span><br>
+					<span class="upswing-mobile-author">by Jake Abdalla</span>
+				</a>
+				<a title="Redline Rocketship by Uri Peleg" href="https://upswingpoker.com/red-line-rocketship-with-uri-peleg/">
+					<span>Redline Rocketship</span><br>
+					<span class="upswing-mobile-author">by Uri Peleg</span>
+				</a>
+				<a title="PLO Matrix Preflop Tool" href="https://upswingpoker.com/plo-matrix/">PLO Matrix Preflop Tool</a>
+			</div>
+			<a title="Contact Us" href="https://upswingpoker.com/contact-us/">Contact Us</a>
+			<a title="Quizzes" href="https://upswingpoker.com/category/poker-quizzes/">Quizzes</a>
+			<a title="Reviews" href="https://upswingpoker.com/upswing-poker-lab-review/">Reviews</a>
+			<a title="Merch" href="https://upswingpoker.com/shop/">Merch</a>
+			<a title="Rakeback" href="https://upswingpoker.com/rakeback/">Rakeback</a>
+			<a title="The Upswing Pros" href="https://upswingpoker.com/about-us/">The Upswing Pros</a>
+			<a title="Frequently Asked Questions" href="https://upswingpoker.com/f-a-q/">FAQ</a>
+			<a title="Log Out" class="menu-item-with-svg logged-in-only" href="https://upswingpoker.com/wp-login.php?action=logout&amp;_wpnonce=994658cda3">
+				<svg viewbox="0 0 20 20" width="18px" height="18px">
+					<use href="#upswing-logout-icon"/>
+				</svg>
+				<span class="user-menu-label">Logout</span>
+			</a>
+		</div>
+	</header>
+<a aria-label="Skip to content" class="fl-screen-reader-text" href="#fl-main-content">Skip to content</a><div class="fl-page">
+	<div class="fl-builder-content fl-builder-content-759322 fl-builder-global-templates-locked" data-post-id="759322" data-type="part"><div class="fl-row fl-row-fixed-width fl-row-bg-photo fl-node-cxgaop90vefy fl-row-default-height fl-row-align-center fl-visible-desktop fl-visible-large" data-node="cxgaop90vefy">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-mdf7leboaps2 fl-col-group-equal-height fl-col-group-align-center" data-node="mdf7leboaps2">
+			<div class="fl-col fl-node-lcyad6n3zv0j fl-col-bg-color fl-col-small" data-node="lcyad6n3zv0j">
+	<div class="fl-col-content fl-node-content"></div>
+</div>
+			<div class="fl-col fl-node-hadbtw4lm195 fl-col-bg-color fl-col-small" data-node="hadbtw4lm195">
+	<div class="fl-col-content fl-node-content"></div>
+</div>
+			<div class="fl-col fl-node-rmtc23fnxuv9 fl-col-bg-color fl-col-small" data-node="rmtc23fnxuv9">
+	<div class="fl-col-content fl-node-content"></div>
+</div>
+			<div class="fl-col fl-node-nyuek1h6w9ab fl-col-bg-color fl-col-small" data-node="nyuek1h6w9ab">
+	<div class="fl-col-content fl-node-content"><h6  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-pimlv7dthqzs" data-node="pimlv7dthqzs">
+			Now Powered By	</h6>
+</div>
+</div>
+			<div class="fl-col fl-node-bq06897c4aml fl-col-bg-color fl-col-small" data-node="bq06897c4aml">
+	<div class="fl-col-content fl-node-content"><div
+ class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-phe9kqrytx3u" data-node="phe9kqrytx3u"  >
+	<div class="fl-photo-content fl-photo-img-png">
+				<picture decoding="async" class="fl-photo-img wp-image-759315 size-full"  title="ClubWPT_Gold_WhtClub resized" loading="lazy">
+<source type="image/webp" srcset="https://upswingpoker.com/wp-content/uploads/2025/07/ClubWPT_Gold_WhtClub-resized.png.webp"/>
+<img decoding="async" src="https://upswingpoker.com/wp-content/uploads/2025/07/ClubWPT_Gold_WhtClub-resized.png" alt="ClubWPT_Gold_WhtClub resized"  height="72" width="200" loading="lazy"/>
+</picture>
+
+					</div>
+	</div>
+</div>
+</div>
+			<div class="fl-col fl-node-amsu4oqzkc3b fl-col-bg-color fl-col-small" data-node="amsu4oqzkc3b">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-button-has-icon fl-node-sgjcqnl5vhmi" data-node="sgjcqnl5vhmi">
+			<a href="https://clubwptgold.com/login?promo=upswing" target="_blank" class="fl-button" rel="noopener" >
+							<span class="fl-button-text">Play Online</span>
+						<i class="fl-button-icon fl-button-icon-after fas fa-arrow-right" aria-hidden="true"></i>
+			</a>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-fixed-width fl-row-bg-photo fl-node-krjaz3fnbvi9 fl-row-default-height fl-row-align-center fl-visible-medium fl-visible-mobile" data-node="krjaz3fnbvi9">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-tsxl8h7pougr fl-col-group-equal-height fl-col-group-align-center" data-node="tsxl8h7pougr">
+			<div class="fl-col fl-node-8i3fosujd4mb fl-col-bg-color fl-col-small" data-node="8i3fosujd4mb">
+	<div class="fl-col-content fl-node-content"><h6  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-bck763efnvgm" data-node="bck763efnvgm">
+			Now Powered By	</h6>
+</div>
+</div>
+			<div class="fl-col fl-node-6w2lyjambnu5 fl-col-bg-color fl-col-small" data-node="6w2lyjambnu5">
+	<div class="fl-col-content fl-node-content"><div
+ class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-tx1f8dvj2a9e" data-node="tx1f8dvj2a9e"  >
+	<div class="fl-photo-content fl-photo-img-png">
+				<picture decoding="async" class="fl-photo-img wp-image-759315 size-full"  title="ClubWPT_Gold_WhtClub resized" loading="lazy">
+<source type="image/webp" srcset="https://upswingpoker.com/wp-content/uploads/2025/07/ClubWPT_Gold_WhtClub-resized.png.webp"/>
+<img decoding="async" src="https://upswingpoker.com/wp-content/uploads/2025/07/ClubWPT_Gold_WhtClub-resized.png" alt="ClubWPT_Gold_WhtClub resized"  height="72" width="200" loading="lazy"/>
+</picture>
+
+					</div>
+	</div>
+</div>
+</div>
+			<div class="fl-col fl-node-hq6wmgkyi9eb fl-col-bg-color fl-col-small" data-node="hq6wmgkyi9eb">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-button-has-icon fl-node-choa0wue516n" data-node="choa0wue516n">
+			<a href="https://clubwptgold.com/login?promo=upswing" target="_blank" class="fl-button" rel="noopener" >
+							<span class="fl-button-text">Play Online</span>
+						<i class="fl-button-icon fl-button-icon-after fas fa-arrow-right" aria-hidden="true"></i>
+			</a>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</div><div class="uabb-js-breakpoint" style="display: none;"></div>	<div id="fl-main-content" class="fl-page-content"  role="main">
+
+		<div class="fl-builder-content fl-builder-content-225699 fl-builder-global-templates-locked" data-post-id="225699"><div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5c3e667b1c16d fl-row-default-height fl-row-align-center" data-node="5c3e667b1c16d">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5c3e667b1c1c3" data-node="5c3e667b1c1c3">
+			<div class="fl-col fl-node-5c3e667b1c215 fl-col-bg-color fl-col-has-cols" data-node="5c3e667b1c215">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-rich-text fl-node-5c3e667b1c2aa" data-node="5c3e667b1c2aa">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p style="text-align: center;">Whoops! We cannot find the page you are looking for. Scroll down for suggestions.</p>
+</div>
+	</div>
+</div>
+<div class="fl-module fl-module-photo fl-node-5c3e667b1c264" data-node="5c3e667b1c264">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-photo fl-photo-align-center"  >
+	<div class="fl-photo-content fl-photo-img-png">
+				<img loading="lazy" decoding="async" class="fl-photo-img wp-image-684525 size-full" src="https://upswingpoker.com/wp-content/uploads/2019/01/doug-lol.png" alt="doug lol"  height="507" width="714" title="doug lol" srcset="https://upswingpoker.com/wp-content/uploads/2019/01/doug-lol.png 714w, https://upswingpoker.com/wp-content/uploads/2019/01/doug-lol-300x213.png 300w, https://upswingpoker.com/wp-content/uploads/2019/01/doug-lol-563x400.png 563w, https://upswingpoker.com/wp-content/uploads/2019/01/doug-lol-600x426.png 600w" sizes="auto, (max-width: 714px) 100vw, 714px" />
+					</div>
+	</div>
+	</div>
+</div>
+<div class="fl-module fl-module-rich-text fl-node-5c3e667b1c44f" data-node="5c3e667b1c44f">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p>If you are looking for free poker strategy articles, use the search feature below to find whatever topic your heart desires. Our <span style="color: #ff0000;"><a href="https://upswingpoker.com/blog"><span style="color: #ff0000;">massive library of articles</span></a></span> covers everything from <span style="color: #ff0000;"><a href="https://upswingpoker.com/7-poker-mistakes-to-avoid-at-all-cost/" target="_blank" rel="noopener"><span style="color: #ff0000;">common preflop mistakes</span></a></span> to ranking <span style="color: #ff0000;"><a href="https://upswingpoker.com/poker-hands-rankings/" target="_blank" rel="noopener"><span style="color: #ff0000;">poker hands</span></a><span style="color: #333333;">.</span></span> New articles are released every Tuesday and Friday.</p>
+<p>If you're a beginner or intermediate player looking to take your game to the next level, consider joining the <a href="https://upswingpoker.com/the-poker-lab/" target="_blank" rel="noopener"><span style="color: #ff0000;"><em>Upswing Lab</em> training course</span></a>. This is your chance to learn the methods behind world-class poker players' successes. But don't take our word for it, <a href="https://upswingpoker.com/upswing-poker-lab-review/" target="_blank" rel="noopener"><span style="color: #ff0000;">see what our members are saying here</span></a>.</p>
+<p>Last but not least, serious players would be wise to consider our<span style="color: #ff0000;"> <a href="https://upswingpoker.com/advanced-poker-training/" target="_blank" rel="noopener"><span style="color: #ff0000;">advanced poker training courses</span></a></span> for their game of choice. For example, tournament players will love our <span style="color: #ff0000;"><a style="color: #ff0000;" href="https://upswingpoker.com/winning-poker-tournaments-with-nick-petrangelo/" target="_blank" rel="noopener"><em>Road to Tournament Victory </em>course</a><span style="color: #333333;">.</span></span></p>
+</div>
+	</div>
+</div>
+
+<div class="fl-col-group fl-node-5c3e667b1c336 fl-col-group-nested" data-node="5c3e667b1c336">
+			<div class="fl-col fl-node-5c3e667b1c37c fl-col-bg-color fl-col-small" data-node="5c3e667b1c37c">
+	<div class="fl-col-content fl-node-content"></div>
+</div>
+			<div class="fl-col fl-node-5c3e667b1c3c1 fl-col-bg-color fl-col-small" data-node="5c3e667b1c3c1">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-widget fl-node-5c3e667b1c2f0" data-node="5c3e667b1c2f0">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-widget">
+<div class="widget widget_search"><form aria-label="Search" method="get" role="search" action="https://upswingpoker.com/" title="Type and press Enter to search.">
+	<input aria-label="Search" type="search" class="fl-search-input form-control" name="s" placeholder="Search"  value="" onfocus="if (this.value === 'Search') { this.value = ''; }" onblur="if (this.value === '') this.value='Search';" />
+</form>
+</div></div>
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-5c3e667b1c408 fl-col-bg-color fl-col-small" data-node="5c3e667b1c408">
+	<div class="fl-col-content fl-node-content"></div>
+</div>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5c3e667b1d656 fl-row-default-height fl-row-align-center" data-node="5c3e667b1d656">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-full-width fl-node-content">
+				</div>
+	</div>
+</div>
+</div><div class="uabb-js-breakpoint" style="display: none;"></div>
+<script nitro-exclude>
+    document.cookie = 'nitroCachedPage=' + (!window.NITROPACK_STATE ? '0' : '1') + '; path=/; SameSite=Lax';
+</script>
+	</div><!-- .fl-page-content -->
+		</div><!-- .fl-page -->
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0&appId=193101447765940&autoLogAppEvents=1"></script><!-- SegMetrics -->
+<script type="text/javascript">
+    var _segq = _segq || [];
+    var _segs = _segs || {};
+    (function () {var dc = document.createElement('script');dc.type = 'text/javascript';dc.async = true;dc.src = '//seg.upswingpoker.com/tag/a1GRzn.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(dc,s);})();
+</script>
+<!-- SegMetrics END -->
+	<footer id="upswing-footer">
+		<div id="footer-back-to-top" onclick="javascript:window.scroll({top:0,left:0,behavior:'smooth'});"></div>
+			<div id="upswing-footer-links">
+		<div class="upswing-footer-course-list">
+			<div class="upswing-footer-sub-group">
+				<h3>Signature Courses</h3>
+				<a title="The End Boss System by Doug Polk" href="https://upswingpoker.com/hu2023/"><span class="upswing-course-title">The End Boss System</span><span class="upswing-course-author">by Doug Polk & Fabian Adler</span></a>
+				<a title="Smash Live Cash by by Nick Petranglo" href="https://upswingpoker.com/smash-live-cash/"><span class="upswing-course-title">Smash Live Cash</span><span class="upswing-course-author">by Nick Petranglo</span></a>
+				<a title="Elite Cash Game Exploits by Uri Peleg" href="https://upswingpoker.com/elite-cash-game-exploits/"><span class="upswing-course-title">Elite Cash Game Exploits</span><span class="upswing-course-author">by Uri Peleg</span></a>
+				<a title="Winning Poker Tournaments by Nick Petranglo" href="https://upswingpoker.com/winning-poker-tournaments-with-nick-petrangelo/"><span class="upswing-course-title">Winning Poker Tournaments</span><span class="upswing-course-author">by Nick Petranglo</span></a>
+				<a title="Advanced Cash Game Strategy by Alex Millar" href="https://upswingpoker.com/advanced-cash-game-strategy-with-kanu7/"><span class="upswing-course-title">Advanced Cash Game Strategy</span><span class="upswing-course-author">by Alex 'Kanu7' Millar</span></a>
+				<a title="Advanced PLO Mastery by Dylan Weisman and Chris Wehner" href="https://upswingpoker.com/advanced-plo-mastery/"><span class="upswing-course-title">Advanced PLO Mastery</span><span class="upswing-course-author">by Dylan Weisman &amp; Chris Wehner</span></a>
+				<a title="Mixed Games Course by Jake Abdalla" href="https://upswingpoker.com/mixed-games-poker/"><span class="upswing-course-title">Mixed Games Course</span><span class="upswing-course-author">by Jake Abdalla</span></a>
+				<a title="High Stakes MTT sessions by Nick Petrangelo" href="https://upswingpoker.com/high-stakes-mtt-sessions-nick-petrangelo/"><span class="upswing-course-title">High Stakes MTT Sessions</span><span class="upswing-course-author">by Nick Petranglo</span></a>
+			</div>
+			<div class="upswing-footer-sub-group">
+				<a title="PLO Matrix Preflop Tool" href="https://upswingpoker.com/plo-matrix/">PLO Matrix Preflop Tool</a>
+			</div>
+		</div>
+		<div class="upswing-footer-course-list">
+			<div class="upswing-footer-sub-group">
+				<h3>Introductory Training</h3>
+				<a title="The $7 Postflop Playbook" href="https://upswingpoker.com/postflop-playbook/">The <span class="upswing-text-highlight">$7</span> Postflop Playbook<span class="upswing-course-author">No Limit Hold'em</span></a>
+				<a title="The PLO Launch Pad by Dylan Weisman" href="https://upswingpoker.com/plo-launch-pad/">PLO Launch Pad<span class="upswing-course-author">by Dylan Weisman</span></a>
+			</div>
+			<div class="upswing-footer-sub-group">
+				<h3>Most Popular Training</h3>
+				<a title="The Upswing No Limit Hold'em Lab" href="https://upswingpoker.com/the-poker-lab-coaching/"><span class="upswing-course-title">Upswing Lab</span><span class="upswing-course-author">No Limit Membership</span></a>
+				<a title="Lucid Poker" href="https://upswingpoker.com/lucid-gto-trainer/"><span class="upswing-course-title">Lucid Poker</span><span class="upswing-course-author">Cash Game Trainer</span></a>
+			</div>
+			<div class="upswing-footer-sub-group">
+				<h3>Beginner Free Resources</h3>
+				<a title="Free Preflop Charts" href="https://upswingpoker.com/preflop/">Preflop Charts</a>
+				<a title="10 Laws of Live Poker" href="https://upswingpoker.com/10-laws-of-live-poker/">10 Laws of Live Poker</a>
+				<a title="Crush 3-Bet Pots" href="https://upswingpoker.com/20-rules-to-crush-your-competition-in-3-bet-pots/">Crush 3-Bet Pots</a>
+				<!--
+				<a title="Advanced PLO Preflop Guide" href="https://upswingpoker.com/plo-preflop-guide/">Advanced PLO Preflop Guide</a>
+				-->
+				<a title="Short Deck Hold'em Guide" href="https://upswingpoker.com/short-deck-guide/">Short Deck Hold'em Guide</a>
+			</div>
+		</div>
+		<div class="upswing-footer-other-column">
+			<div id="footer-sign-up">
+				<a title="Sign Up for Free Poker Strategy" href="https://upswingpoker.com/join/">Sign up for <span class="upswing-text-highlight">free</span> <span class="no-line-break">poker strategies!  <span class="symbol-font" style="font-weight: bold; margin-left: 5px; font-size: 20px;">&#128389&#xFE0E;</span></span></a>
+			</div>
+			<div id="upswing-footer-nav-container">
+				<div>
+					<a title="Articles" href="https://upswingpoker.com/blog/">Articles</a>
+					<a title="Quizzes" href="https://upswingpoker.com/category/poker-quizzes/">Quizzes</a>
+					<a title="Poker Terms Glossary" href="https://upswingpoker.com/poker-terms-glossary/">Poker Terms<br> Glossary</a>
+					<a title="Poker Rules" href="https://upswingpoker.com/poker-rules/">Poker Rules</a>
+					<a title="Poker Tools and Software" href="https://upswingpoker.com/poker-tools-software/">Poker Tools <br>&amp; Software</a>
+					<a title="All Courses and Tools" href="https://upswingpoker.com/all-courses-tools/">All Poker <br>Courses &amp; Tools</a>
+				</div>
+				<div>
+					<a title="Reviews" href="https://upswingpoker.com/upswing-poker-lab-review/">Reviews</a>
+					<a title="Meet The Pros" href="https://upswingpoker.com/about-us/">Meet The Pros</a>
+					<a title="Level Up Podcast" href="https://upswingpoker.com/podcast/">Level-Up Podcast</a>
+					<a title="Merch Shop" href="https://upswingpoker.com/shop/">Merch</a>
+					<a title="Contact Us" href="https://upswingpoker.com/contact-us/">Contact Us</a>
+					<a title="Frequently Asked Questions" href="https://upswingpoker.com/f-a-q/">FAQ</a>
+					<a title="Rakeback" href="https://upswingpoker.com/rakeback/">Rakeback</a>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div id="upswing-footer-minimal">
+			<a id="upswing-footer-logo" href="https://upswingpoker.com/">
+				<svg viewBox="10 0 65 97" width="25px" height="40px">
+					<use class="logo-upswing-p" href="#logo-upswing-p"/>
+					<use class="logo-upswing-u" href="#logo-upswing-u"/>
+				</svg>
+				<span>U<u>p</u>s<u>w</u>i<u>n</u>g <u>P</u>o<u>k</u>e<u>r</u></span>
+			</a>
+			<span id="upswing-footer-socials">
+				<a title="Facebook" href="https://www.facebook.com/UpswingPoker1" target="_blank">
+					<svg id="upswing-footer-facebook" viewBox="0 0 428 428" width="21px" height="21px">
+						<path d="m238 259h64l9-56h-73v-39c0-16 6-28 30-28H309V85c-14-2-30-4-44-4-46 0-78 28-78 78V203h-50v56h50v143a1 1 0 0129-401A1 1 0 01238 402Z"/>
+					</svg>
+				</a>
+				<a title="Discord" href="https://discord.gg/Zfr6Fzz2Xy" target="_blank">
+					<svg id="upswing-footer-discord" viewBox="10 10 300 300" width="21px" height="21px">
+						<path d="M210 202c-15-1-27-13-27-29 0-1 0-1 0-2l0 0c-0-0-0-1-0-2 0-15 12-28 27-29l0 0c15 1 27 13 27 28 0 1-0 1-0 2l0-0c0 1 0 1 0 2 0 15-12 28-27 29l-0 0zM110 202c-15-1-27-13-27-29 0-1 0-1 0-2l0 0c-0-0-0-1-0-2 0-15 12-28 27-29l0 0c15 1 27 13 27 28 0 1-0 1-0 2l0-0c0 0 0 1 0 2 0 15-12 28-27 29l-0 0zM264 65c-18-8-38-15-60-19l-1-0c-0-0-0-0-0-0-0 0-1 0-1 0l0 0c-2 4-5 9-7 15l-0 1c-10-2-22-3-34-3s-24 1-36 3l1-0c-3-6-5-11-8-16l0 1c-0-0-0-0-1-0-0 0-0 0-0 0l0 0c-23 4-43 11-63 20l2-1c-0 0-0 0-0 0l0 0c-29 40-46 91-46 145 0 9 0 18 1 27l-0-1c0 0 0 1 0 1l0 0c21 16 46 29 73 37l2 0c0 0 0 0 0 0 0 0 1-0 1-0l0 0c5-7 10-15 15-24l0-1c0-0 0-0 0-0 0-0-0-1-1-1l-0 0c-9-4-17-7-24-12l1 0c-0-0-0-0-0-1 0-0 0-1 0-1l0 0c2-1 3-2 5-4 0-0 0-0 1-0 0 0 0 0 0 0l-0 0c22 11 48 17 75 17s53-6 76-17l-1 0c0-0 0-0 0-0 0 0 0 0 1 0l0 0c2 1 3 2 5 4 0 0 0 0 0 1 0 0-0 1-0 1l0 0c-7 4-14 8-22 11l-1 0c-0 0-1 0-1 1 0 0 0 0 0 0l0-0c5 10 10 18 16 25l-0-1c0 0 0 0 1 0 0 0 0-0 0-0l-0 0c29-9 54-22 76-38l-1 0c0-0 0-0 0-1l0 0c1-8 1-17 1-26 0-54-17-104-46-145l1 1c-0-0-0-0-0-0l0 0z"/>
+					</svg>
+				</a>
+				<a title="Twitter" href="https://twitter.com/intent/follow?screen_name=UpswingPoker" target="_blank">
+					<svg id="upswing-footer-twitter" viewBox="0 0 248 204" width="21px" height="21px">
+						<path d="M222 51c0 2 0 4 0 7 0 67-51 144-144 144v0c-27 0-54-8-77-23 4 0 8 1 12 1 23 0 45-8 63-22-22 0-41-15-47-35 8 1 15 1 23-1-24-5-41-25-41-50v-1c7 4 15 6 23 6C12 63 5 34 18 11c26 32 63 51 104 53-4-18 1-36 15-48 20-19 52-18 71 2 11-2 22-6 32-12-4 12-12 22-22 28 10-1 20-4 29-8-7 10-15 19-25 26z"/>
+					</svg>
+				</a>
+				<a title="Instagram" href="https://www.instagram.com/upswingpoker" target="_blank">
+					<svg id="upswing-footer-instagram" viewBox="0 0 60 60" width="21px" height="21px">
+						<path d="M15 0Q0 0 0 15V45Q0 60 15 60H45Q60 60 60 45V15Q60 0 45 0ZM5 15Q5 5 15 5H45Q55 5 55 15V45Q55 55 45 55H15Q5 55 5 45ZM30 15A1 1 0 0030 45 1 1 0 0030 15ZM30 20A1 1 0 1130 40 1 1 0 1130 20ZM47 10A1 1 0 0047 18 1 1 0 0047 10Z"/>
+					</svg>
+				</a>
+				<a title="YouTube" href="https://www.youtube.com/c/upswingpoker?sub_confirmation=1" target="_blank">
+					<svg id="upswing-footer-youtube" viewBox="0 -20 300 250" width="23px" height="21px">
+						<path d="M280 31C276 19 267 9 254 6 232 0 143 0 143 0 143 0 54 0 31 6 19 9 9 19 6 31 0 54 0 100 0 100 0 100 0 146 6 169 9 181 19 191 31 194 54 200 143 200 143 200 143 200 232 200 254 194 267 191 276 181 280 169 286 146 286 100 286 100 286 100 286 54 280 31ZM110 60 190 100 110 140V140Z"/>
+					</svg>
+				</a>
+				<a title="Twitch" href="https://www.twitch.tv/upswingpoker" target="_blank">
+					<svg id="upswing-footer-twitch" viewBox="0 0 240 240" width="21px" height="21px">
+						<path d="M16 0l-16 41v168h57v30h32l30-30h47l63-63v-146h-213zm193 137-36 36h-57l-30 30v-30h-48v-150h171v114zm-36-73v63h-21v-63h21zm-57 0v63h-21v-63h21z"/>
+					</svg>
+				</a>
+				<a title="TikTok" href="https://www.tiktok.com/@upswingpoker" target="_blank">
+					<svg id="upswing-footer-tiktok" viewBox="0 0 286 334" width="19px" height="21px">
+						<path d="M208 0c6 47 32 75 78 79v53c-27 3-50-6-77-23v100c0 126-138 166-193 75-36-58-14-161 100-165v56c-9 1-18 4-26 7-25 9-40 25-36 53 8 54 108 70 99-36V0h55z"/>
+					</svg>
+				</a>
+			</span>
+			<span id="upswing-footer-copyright">
+				<a>&copy; Copyright 2025</a>
+				<a href="https://upswingpoker.com/sitemap/">Sitemap</a>
+				<a href="https://upswingpoker.com/responsible-gambling/">Responsible Gambling</a>
+				<a href="https://upswingpoker.com/terms-and-conditions-and-privacy-policy/">Terms of Service</a>
+				<a href="https://upswingpoker.com/contact-us/">Contact</a>
+			</span>
+		</div>
+	</footer>
+	<script>
+		jQuery(document.body).on('updated_cart_totals added_to_cart removed_from_cart wc_cart_emptied', function(e) {
+			update_user_info_by_ajax();
+		});
+	</script>
+<noscript><img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=1711694469105076&ev=PageView&noscript=1&eid=17116944691050766de002e1-4cba-43af-ae9a-22bcddea1e48&cd%5Btags%5D=Cash+Games%2C+Intermediate%2C+Online+Poker&cd%5Bpost_category%5D=Poker+Strategy&cd%5Bpage_title%5D=How+Elite+Poker+Pros+Play+Pocket+Kings+Postflop&cd%5Bpost_type%5D=post&cd%5Bpost_id%5D=753040&cd%5Bplugin%5D=PixelYourSite&cd%5Bevent_url%5D=upswingpoker.com%2Fwp-content%2Fuploads%2F2025%2F08%2Favery-playitsmart.jpg&cd%5Buser_role%5D=guest" alt=""></noscript>
+<noscript><img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=268927586817673&ev=PageView&noscript=1&eid=2689275868176736de002e1-4cba-43af-ae9a-22bcddea1e48&cd%5Btags%5D=Cash+Games%2C+Intermediate%2C+Online+Poker&cd%5Bpost_category%5D=Poker+Strategy&cd%5Bpage_title%5D=How+Elite+Poker+Pros+Play+Pocket+Kings+Postflop&cd%5Bpost_type%5D=post&cd%5Bpost_id%5D=753040&cd%5Bplugin%5D=PixelYourSite&cd%5Bevent_url%5D=upswingpoker.com%2Fwp-content%2Fuploads%2F2025%2F08%2Favery-playitsmart.jpg&cd%5Buser_role%5D=guest" alt=""></noscript>
+	<script>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='wc-stripe-blocks-checkout-style-css' href='https://upswingpoker.com/wp-content/plugins/woocommerce-gateway-stripe/build/upe-blocks.css?ver=8c6a61afcfe78e1022f9d9de1b9965b7' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://upswingpoker.com/wp-includes/css/dashicons.min.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='thickbox-css' href='https://upswingpoker.com/wp-includes/js/thickbox/thickbox.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://upswingpoker.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.0.4' media='all' />
+<script src="https://upswingpoker.com/wp-content/plugins/steal-equation/js/custom.js?1755300766&amp;ver=1.0.1.1" id="steal-equation-script-js"></script>
+<script src="https://upswingpoker.com/wp-content/uploads/bb-plugin/cache/fc0c75fc4ad37f8aaa546c4a54575cff-layout-bundle.js?ver=2.9.2.1-1.5.1" id="fl-builder-layout-bundle-fc0c75fc4ad37f8aaa546c4a54575cff-js"></script>
+<script id="swatches-and-photos-js-extra">
+var wc_swatches_params = {"ajax_url":"https:\/\/upswingpoker.com\/wp-admin\/admin-ajax.php"};
+</script>
+<script src="https://upswingpoker.com/wp-content/plugins/woocommerce-variation-swatches-and-photos/assets/js/swatches-and-photos.js?ver=3.0.6" id="swatches-and-photos-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.0.4" id="sourcebuster-js-js"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/upswingpoker.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+</script>
+<script src="https://upswingpoker.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.0.4" id="wc-order-attribution-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/pixelyoursite-pro/dist/scripts/sha256.js?ver=0.11.0" id="js-sha256-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/pixelyoursite-pro/dist/scripts/vimeo.min.js" id="vimeo-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js?ver=2.9.2.1" id="jquery-throttle-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/bb-plugin/js/jquery.imagesloaded.min.js?ver=2.9.2.1" id="imagesloaded-js"></script>
+<script src="https://upswingpoker.com/wp-content/plugins/bb-plugin/js/jquery.fitvids.min.js?ver=1.2" id="jquery-fitvids-js"></script>
+<script id="fl-automator-js-extra">
+var themeopts = {"medium_breakpoint":"992","mobile_breakpoint":"768","lightbox":"disabled","scrollTopPosition":"800"};
+</script>
+<script src="https://upswingpoker.com/wp-content/themes/bb-theme/js/theme.js?ver=1.7.18.1" id="fl-automator-js"></script>
+<script id="thickbox-js-extra">
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/upswingpoker.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+</script>
+<script src="https://upswingpoker.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105" id="thickbox-js"></script>
+<!-- WooCommerce JavaScript -->
+<script type="text/javascript">
+jQuery(function($) { 
+		( function() {
+
+			function trackEvents() {
+					
+			}
+
+			if ( 'undefined' !== typeof gtag ) {
+				trackEvents();
+			} else {
+				// avoid using jQuery in case it's not available when this script is loaded
+				document.addEventListener( 'wc_google_analytics_pro_gtag_loaded', trackEvents );
+			}
+
+			
+			function trackUAEvents() {
+			
+				ga( 'send', 'pageview' );
+
+				ga( 'send', {"hitType":"event","eventCategory":"404 error","eventAction":"\/wp-content\/uploads\/2025\/08\/avery-playitsmart.jpg","eventLabel":"","eventValue":null,"nonInteraction":false} );
+			}
+
+			if ( 'undefined' !== typeof ga ) {
+				trackUAEvents();
+			} else {
+				// avoid using jQuery in case it's not available when this script is loaded
+				document.addEventListener( 'wc_google_analytics_pro_loaded', trackUAEvents );
+			}
+
+		} ) ();
+		
+ });
+</script>
+<script defer src="https://jscloud.net/x/12174/inlinks.js"></script>
+
+<script>
+        jQuery('.show-more').click(function(e){ 
+          e.preventDefault(); // Prevent the default link behavior
+          var text = jQuery(this).text();
+          if (text == 'Read More'){
+            text = 'Read Less';
+          } else {
+            text = 'Read More';
+          }
+          // Find the corresponding '.more-content' element within the same '.single-review' container
+          var moreContent = jQuery(this).closest('.single-review').find('.more-content');
+          moreContent.toggle('slow');
+          jQuery(this).text(text);
+        });
+      </script></body>
+</html>
