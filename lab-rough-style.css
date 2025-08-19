@@ -3322,7 +3322,7 @@ img.lab-hero-logo {
 }
 
 .clubwpt-play-text {
-    color: var(--accent-gold);
+    color: var(--bg-card-light);
     font-family: var(--font-heading);
     font-weight: 700;
     font-size: 16px;
