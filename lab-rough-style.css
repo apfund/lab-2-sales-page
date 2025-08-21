@@ -2475,6 +2475,56 @@ img.lab-hero-logo {
   cursor: help; /* Indicate tooltip availability */
 }
 
+/* Tooltip functionality for feature screenshots */
+.feature-screenshot {
+  position: relative; /* For tooltip positioning */
+}
+
+.feature-screenshot .tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(30, 30, 34, 0.95);
+  color: var(--text-primary);
+  padding: 16px 20px;
+  border-radius: 0.5em;
+  font-size: 14px;
+  line-height: 1.4;
+  width: 280px;
+  max-width: 90vw;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 184, 0, 0.3);
+  z-index: 1000;
+  margin-bottom: 12px;
+  pointer-events: none;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.feature-screenshot .tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 8px solid transparent;
+  border-top-color: rgba(30, 30, 34, 0.95);
+}
+
+/* Desktop hover behavior for feature screenshots */
+@media (hover: hover) and (pointer: fine) {
+  .feature-screenshot:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-8px);
+    pointer-events: auto;
+  }
+}
+
 /* Tooltip functionality */
 .feature-screenshot::after {
   content: attr(data-tooltip);
@@ -3831,9 +3881,26 @@ img.lab-hero-logo {
 
 .testimonials-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2em;
+    grid-template-columns: repeat(3, minmax(0, 1.1fr)); /* 10% wider cards */
+    gap: 1em; /* Further reduced gap for tighter spacing */
     margin-bottom: 0em;
+    max-width: 100%;
+}
+
+/* Ensure cards don't stretch too much and maintain proper spacing */
+.testimonials-grid .testimonial-card {
+    max-width: 100%;
+    min-width: 0; /* Allow cards to shrink if needed */
+}
+
+/* Ensure 3 columns on large desktop screens */
+@media (min-width: 1200px) {
+    .testimonials-grid {
+        grid-template-columns: repeat(3, minmax(0, 1.1fr)); /* 10% wider cards */
+        gap: 1em; /* Consistent tight gap across all screen sizes */
+        max-width: 1250px;
+        margin: 0 auto;
+    }
 }
 
 .testimonial-card {
@@ -3843,6 +3910,8 @@ img.lab-hero-logo {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
+    margin: 0.5em;
+    box-sizing: border-box;
 }
 
 .testimonial-card:hover {
@@ -3973,7 +4042,8 @@ img.lab-hero-logo {
 @media (max-width: 768px) {
     .testimonials-grid {
         grid-template-columns: 1fr;
-        gap: 1.5em;
+        gap: 1em; /* Consistent tight gap across all screen sizes */
+        margin: 0 1em;
     }
     
     .testimonials-title {
@@ -3995,7 +4065,14 @@ img.lab-hero-logo {
     .lab-hero-cta-wrap {
       margin: var(--spacing-md);
     }
+}
 
+/* Tablet Responsiveness */
+@media (min-width: 769px) and (max-width: 1199px) {
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em; /* Consistent tight gap across all screen sizes */
+    }
 }
 
 /* Max Exploit Academy Special Styling */
@@ -4262,6 +4339,28 @@ img.lab-hero-logo {
 .UMA__path-node-mastery-path .UMA__path-node-title,
 .UMA__path-node-mastery-path .UMA__path-node-heading {
     color: var(--accent-gold);
+}
+
+/* Override the general heading styles for mastery path nodes */
+.UMA__path-node-mastery-path .UMA__path-node-heading {
+    color: var(--accent-gold) !important;
+    background: rgba(255, 184, 0, 0.1) !important;
+    border: 1px solid var(--accent-gold) !important;
+}
+
+/* Ensure all mastery path nodes in all three columns have consistent styling */
+.UMA__path-subtree-container .UMA__path-node-mastery-path .UMA__path-node-heading {
+    color: var(--accent-gold) !important;
+    background: rgba(255, 184, 0, 0.1) !important;
+    border: 1px solid var(--accent-gold) !important;
+}
+
+/* Additional specificity to override any conflicting rules */
+.UMA__path-subtree-container .UMA__path-node.UMA__path-node-mastery-path .UMA__path-node-heading,
+.UMA__path-subtree-container .UMA__path-node.UMA__path-node-unlocked.UMA__path-node-mastery-path .UMA__path-node-heading {
+    color: var(--accent-gold) !important;
+    background: rgba(255, 184, 0, 0.1) !important;
+    border: 1px solid var(--accent-gold) !important;
 }
 
 /* NODE CONTENT */
@@ -5120,18 +5219,18 @@ img.lab-hero-logo {
 
 .UMA__path-expand-button-container {
   text-align: center;
-  margin: var(--spacing-md) 0;
+  margin: var(--spacing-xs) 0;
   padding: var(--spacing-sm) 0;
 }
 
 .UMA__path-expand-button {
-  background: linear-gradient(135deg, var(--accent-red), var(--accent-gold));
-  color: white;
-  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #b0b0b0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: var(--spacing-sm) var(--spacing-lg);
   border-radius: 8px;
   font-family: var(--font-heading);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -5143,8 +5242,11 @@ img.lab-hero-logo {
 }
 
 .UMA__path-expand-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 44, 31, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  color: #d0d0d0;
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .UMA__path-expand-button:focus-visible {
