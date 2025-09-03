@@ -3880,7 +3880,7 @@ img.lab-hero-logo {
 }
 
 .testimonials-grid {
-    display: grid;p
+    display: grid;
     grid-template-columns: repeat(3, minmax(0, 1.1fr)); /* 10% wider cards */
     gap: 1em; /* Further reduced gap for tighter spacing */
     margin-bottom: 0em;
@@ -5213,7 +5213,7 @@ img.lab-hero-logo {
 }
 
 .UMA__path-expandable-content.expanded {
-  max-height: 2000px;
+  max-height: 5000px;
   opacity: 1;
 }
 
