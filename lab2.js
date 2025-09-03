@@ -208,8 +208,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Check if device is touch-enabled
     const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
     
-    // Get all tooltip triggers - now includes pricing-bonus elements
-    const tooltipTriggers = document.querySelectorAll('.feature-text, .flowchart-step, .pricing-bonus');
+    // Get all tooltip triggers - now includes pricing-bonus elements and feature screenshots
+    const tooltipTriggers = document.querySelectorAll('.feature-text, .flowchart-step, .pricing-bonus, .feature-screenshot');
     
     // Only apply mobile behavior on touch devices or small screens
     if (isTouchDevice || window.innerWidth <= 768) {
