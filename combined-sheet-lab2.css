@@ -5245,14 +5245,31 @@ border-top-color: var(--accent-gold);
 to { opacity: 1; }
 }
 
-/* Feature section tooltips - same as pricing section */
-.feature-text {
+/* Feature section tooltips - triggered by feature card elements */
+.feature-card {
+  position: relative;
+}
+
+.features-grid .feature-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Pricing section tooltips - different styling for visible text */
+.pricing-features-list .feature-text {
   flex: 1;
   cursor: help;
   position: relative;
 }
 
-.feature-text .tooltip {
+/* Tooltip styling for both sections */
+.feature-text .tooltip,
+.pricing-features-list .feature-text .tooltip {
   position: absolute;
   bottom: 100%;
   left: 50%;
@@ -5276,7 +5293,8 @@ to { opacity: 1; }
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.feature-text .tooltip::after {
+.feature-text .tooltip::after,
+.pricing-features-list .feature-text .tooltip::after {
   content: '';
   position: absolute;
   top: 100%;
@@ -5286,16 +5304,37 @@ to { opacity: 1; }
   border-top-color: var(--accent-gold);
 }
 
-.feature-text:hover .tooltip,
-.feature-text.active .tooltip {
+/* Feature section tooltip triggers */
+.feature-card:hover .feature-text .tooltip,
+.feature-card.active .feature-text .tooltip {
   opacity: 1;
   visibility: visible;
   transform: translateX(-50%) translateY(-8px);
 }
 
+/* Pricing section tooltip triggers */
+.pricing-features-list .feature-text:hover .tooltip,
+.pricing-features-list .feature-text.active .tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(-8px);
+}
+
+/* Make feature card elements interactive */
+.feature-screenshot,
+.feature-title {
+  cursor: help;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover .feature-screenshot,
+.feature-card:hover .feature-title {
+  transform: translateY(-2px);
+}
+
 /* Mobile click functionality */
 @media (max-width: 768px) {
-.feature-text.tooltip-toggle {
+.feature-card {
   cursor: pointer;
 }
 }

@@ -68,12 +68,35 @@
           // Handle YouTube videos
           else if (src.includes('youtube.com') || src.includes('youtu.be')) {
             try {
-              // Try to pause using YouTube Player API if available
+              // Method 1: Try to pause using YouTube Player API
               if (iframe.contentWindow && iframe.contentWindow.postMessage) {
                 iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
               }
+              
+              // Method 2: Try alternative YouTube API commands
+              if (iframe.contentWindow && iframe.contentWindow.postMessage) {
+                iframe.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+              }
+              
+              // Method 3: Remove and restore src to force stop
+              var originalSrc = iframe.src;
+              iframe.src = '';
+              setTimeout(function(){
+                iframe.src = originalSrc;
+              }, 100);
+              
             } catch (e) {
               console.log('Could not pause YouTube video:', e);
+              // Fallback: remove src to stop video
+              try {
+                var originalSrc = iframe.src;
+                iframe.src = '';
+                setTimeout(function(){
+                  iframe.src = originalSrc;
+                }, 100);
+              } catch (fallbackError) {
+                console.log('Fallback YouTube pause failed:', fallbackError);
+              }
             }
           }
           
@@ -366,27 +389,27 @@
       // FEATURE SECTION TOOLTIPS
       // ===============================
       function initFeatureTooltips(){
-        // Target the feature section .feature-text elements that include a tooltip
-        var $items = $('.features-grid .feature-text');
-        if (!$items.length) return;
+        // Target the feature section .feature-card elements that include a tooltip
+        var $cards = $('.features-grid .feature-card');
+        if (!$cards.length) return;
 
-        $items.each(function(){
-          var $t = $(this);
-          var $tooltip = $t.find('.tooltip');
+        $cards.each(function(){
+          var $card = $(this);
+          var $tooltip = $card.find('.tooltip');
           if ($tooltip.length === 0) return;
 
-          // Make it interactive like pricing tooltips
-          if (!$t.hasClass('tooltip-toggle')) $t.addClass('tooltip-toggle');
-          if (!$t.attr('tabindex')) $t.attr('tabindex', '0');
+          // Make it interactive
+          if (!$card.hasClass('tooltip-toggle')) $card.addClass('tooltip-toggle');
+          if (!$card.attr('tabindex')) $card.attr('tabindex', '0');
 
           // Desktop hover behavior
           if (!('ontouchstart' in window)) {
-            $t.on('mouseenter', function(){ $(this).addClass('active'); });
-            $t.on('mouseleave', function(){ $(this).removeClass('active'); });
+            $card.on('mouseenter', function(){ $(this).addClass('active'); });
+            $card.on('mouseleave', function(){ $(this).removeClass('active'); });
           }
 
           // Mobile click behavior
-          $t.on('click', function(e){
+          $card.on('click', function(e){
             e.preventDefault();
             e.stopPropagation();
             
@@ -394,7 +417,7 @@
             var isCurrentlyActive = $this.hasClass('active');
             
             // Close all other tooltips first
-            $('.feature-text.active').not($this).removeClass('active');
+            $('.feature-card.active').not($this).removeClass('active');
             
             // Toggle this tooltip
             $this.toggleClass('active');
@@ -403,20 +426,20 @@
 
         // Close tooltips when clicking outside
         $(d).on('click', function(e){
-          if (!$(e.target).closest('.feature-text').length){
-            $('.feature-text.active').removeClass('active');
+          if (!$(e.target).closest('.feature-card').length){
+            $('.feature-card.active').removeClass('active');
           }
         });
 
         // Close tooltips on escape key
         $(d).on('keydown', function(e){
           if (e.key === 'Escape') {
-            $('.feature-text.active').removeClass('active');
+            $('.feature-card.active').removeClass('active');
           }
         });
 
         // Debug
-        console.log('Feature tooltips initialized. Found:', $('.features-grid .feature-text.tooltip-toggle').length);
+        console.log('Feature tooltips initialized. Found:', $('.features-grid .feature-card.tooltip-toggle').length);
       }
   
       // ===============================
