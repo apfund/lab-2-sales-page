@@ -1,474 +1,533 @@
-   // Modal functionality
-        class ModalManager {
-            constructor() {
-                this.init();
+(function(w, d){
+    // Wait for jQuery then init once
+    function waitForjQuery(cb){
+      if (w.jQuery) cb(w.jQuery);
+      else setTimeout(function(){ waitForjQuery(cb); }, 50);
+    }
+  
+    // Throttle via rAF
+    function rafThrottle(fn){
+      var ticking = false;
+      return function(){
+        if (ticking) return;
+        ticking = true;
+        var ctx = this, args = arguments;
+        requestAnimationFrame(function(){
+          ticking = false;
+          fn.apply(ctx, args);
+        });
+      };
+    }
+  
+    waitForjQuery(function($){
+      if ($('body').data('uma-init') === 1) return;
+      $('body').data('uma-init', 1);
+  
+      console.log('UMA header script initializing. jQuery:', $.fn.jquery);
+  
+      // ===============================
+      // MODALS (delegated)
+      // ===============================
+      function openModal(modalId){
+        var $m = $('#modal-' + modalId);
+        if (!$m.length) { console.error('Modal not found: #modal-' + modalId); return; }
+        if (!$m.parent().is('body')) $m.appendTo('body');
+        $m.css('display', 'block').attr('aria-hidden', 'false').addClass('active').fadeIn(200);
+        $('body').addClass('uma-modal-open').css('overflow','hidden');
+      }
+      function closeModal($m){
+        // Pause any videos in the modal before closing
+        pauseModalVideos($m);
+        
+        $m.fadeOut(200, function(){
+          $m.removeClass('active').attr('aria-hidden','true').css('display','none');
+        });
+        $('body').removeClass('uma-modal-open').css('overflow','auto');
+      }
+      
+      function pauseModalVideos($modal){
+        // Find all video iframes in the modal
+        var $videos = $modal.find('iframe');
+        
+        $videos.each(function(){
+          var iframe = this;
+          var src = iframe.src;
+          
+          // Handle Vimeo videos
+          if (src.includes('player.vimeo.com')) {
+            try {
+              // Try to pause using Vimeo Player API if available
+              if (window.Vimeo && iframe.contentWindow && iframe.contentWindow.postMessage) {
+                iframe.contentWindow.postMessage('{"method":"pause"}', '*');
+              }
+            } catch (e) {
+              console.log('Could not pause Vimeo video:', e);
             }
-
-            init() {
-                // Add click listeners to all path nodes with data-modal attribute
-                document.querySelectorAll('.UMA__path-node[data-modal]').forEach(node => {
-                    node.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        const modalId = node.getAttribute('data-modal');
-                        this.openModal(modalId);
-                    });
-                });
-
-                // Add click listeners to close buttons
-                document.querySelectorAll('.uma-close').forEach(closeBtn => {
-                    closeBtn.addEventListener('click', () => {
-                        this.closeModal();
-                    });
-                });
-
-                // Close modal when clicking outside of modal content
-                document.querySelectorAll('.uma-modal').forEach(modal => {
-                    modal.addEventListener('click', (e) => {
-                        if (e.target === modal) {
-                            this.closeModal();
-                        }
-                    });
-                });
-
-                // Close modal with Escape key
-                document.addEventListener('keydown', (e) => {
-                    if (e.key === 'Escape') {
-                        this.closeModal();
-                    }
-                });
+          }
+          
+          // Handle YouTube videos
+          else if (src.includes('youtube.com') || src.includes('youtu.be')) {
+            try {
+              // Try to pause using YouTube Player API if available
+              if (iframe.contentWindow && iframe.contentWindow.postMessage) {
+                iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+              }
+            } catch (e) {
+              console.log('Could not pause YouTube video:', e);
             }
-
-            openModal(modalId) {
-                const modal = document.getElementById(`moduleModal-${modalId}`);
-                if (modal) {
-                    modal.style.display = 'block';
-                    document.body.style.overflow = 'hidden'; // Prevent background scrolling
-                }
+          }
+          
+          // For any other video iframe, try to remove the src to stop playback
+          else {
+            try {
+              var originalSrc = iframe.src;
+              iframe.src = '';
+              // Restore src after a brief moment to allow for reopening
+              setTimeout(function(){
+                iframe.src = originalSrc;
+              }, 100);
+            } catch (e) {
+              console.log('Could not pause video:', e);
             }
-
-            closeModal() {
-                document.querySelectorAll('.uma-modal').forEach(modal => {
-                    modal.style.display = 'none';
-                });
-                document.body.style.overflow = 'auto'; // Restore scrolling
-            }
+          }
+        });
+      }
+  
+      $(d).on('click', '[data-modal]', function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        openModal($(this).attr('data-modal'));
+      });
+      $(d).on('click', '.uma-modal', function(e){
+        if (e.target === this) closeModal($(this));
+      });
+      $(d).on('click', '.uma-close', function(e){
+        e.preventDefault();
+        closeModal($(this).closest('.uma-modal'));
+      });
+      $(d).on('keydown', function(e){
+        if (e.key === 'Escape') {
+          var $activeModal = $('.uma-modal.active');
+          if ($activeModal.length) closeModal($activeModal);
+        }
+      });
+  
+      // ===============================
+      // BASIC CAROUSEL (IDs: #carouselTrack, #prevBtn, #nextBtn, #carouselDots)
+      // ===============================
+      function initCarousel(){
+        var $track = $('#carouselTrack');
+        if (!$track.length) return;
+  
+        var $prev = $('#prevBtn');
+        var $next = $('#nextBtn');
+        var $dots = $('#carouselDots');
+        var $cards = $track.find('.coach-card');
+  
+        var gap = 24;
+        var cardWidth = 320 + gap; // default fallback
+        var visible = Math.max(1, Math.floor($track.width() / cardWidth));
+        var index = 0;
+  
+        // If real width is measurable, use it
+        if ($cards.length) {
+          var realW = $cards.first().outerWidth();
+          if (realW) cardWidth = realW + gap;
+          visible = Math.max(1, Math.floor($track.width() / cardWidth));
+        }
+  
+        function createDots(){
+          $dots.empty();
+          var pages = Math.ceil($cards.length / visible);
+          var cardSymbols = ['&spades;', '&hearts;', '&clubs;', '&diams;']; // Spade, Heart, Club, Diamond
+          for (var i = 0; i < pages; i++){
+            var symbol = cardSymbols[i % cardSymbols.length];
+            var $dot = $('<button>').addClass('dot' + (i === 0 ? ' active' : '')).html(symbol);
+            (function(p){ $dot.on('click', function(){ goTo(p * visible); }); })(i);
+            $dots.append($dot);
+          }
+        }
+  
+        function updateDots(){
+          var page = Math.floor(index / visible);
+          $dots.find('.dot').each(function(i){ $(this).toggleClass('active', i === page); });
+        }
+  
+        function updateButtons(){
+          // Keep buttons always enabled and visible - no visual changes
+          $prev.prop('disabled', false);
+          $next.prop('disabled', false);
+        }
+  
+        function goTo(i){
+          index = Math.max(0, Math.min(i, Math.max(0, $cards.length - visible)));
+          $track.css('transform', 'translateX(' + (-index * cardWidth) + 'px)');
+          updateDots();
+          updateButtons();
         }
 
-        // Initialize modal manager when DOM is loaded
-        document.addEventListener('DOMContentLoaded', () => {
-            new ModalManager();
+        $prev.on('click', function(){ 
+          if (index > 0) goTo(index - visible); 
         });
-
-// coach carousel 
- class EliteCoachesCarousel {
-            constructor() {
-                this.track = document.getElementById('carouselTrack');
-                this.prevBtn = document.getElementById('prevBtn');
-                this.nextBtn = document.getElementById('nextBtn');
-                this.dotsContainer = document.getElementById('carouselDots');
-                this.cards = this.track.querySelectorAll('.coach-card');
-                this.currentIndex = 0;
-                this.cardsPerView = this.getCardsPerView();
-                this.maxIndex = Math.max(0, this.cards.length - this.cardsPerView);
-                
-                this.init();
-            }
-
-            getCardsPerView() {
-                if (window.innerWidth <= 480) return 1;
-                if (window.innerWidth <= 768) return 2;
-                if (window.innerWidth <= 1024) return 3;
-                return 3;
-            }
-
-            init() {
-                this.createDots();
-                this.updateCarousel();
-                this.bindEvents();
-            }
-
-            createDots() {
-                this.dotsContainer.innerHTML = '';
-                const dotsCount = Math.ceil(this.cards.length / this.cardsPerView);
-                
-                for (let i = 0; i < dotsCount; i++) {
-                    const dot = document.createElement('button');
-                    dot.classList.add('dot');
-                    if (i === 0) dot.classList.add('active');
-                    dot.addEventListener('click', () => this.goToSlide(i));
-                    this.dotsContainer.appendChild(dot);
-                }
-            }
-
-            updateCarousel() {
-                const cardWidth = this.cards[0].offsetWidth;
-                const gap = 24; // var(--spacing-md)
-                const translateX = -(this.currentIndex * (cardWidth + gap));
-                
-                this.track.style.transform = `translateX(${translateX}px)`;
-                this.updateDots();
-                this.updateButtons();
-            }
-
-            updateDots() {
-                const dots = this.dotsContainer.querySelectorAll('.dot');
-                dots.forEach((dot, index) => {
-                    dot.classList.toggle('active', index === Math.floor(this.currentIndex / this.cardsPerView));
-                });
-            }
-
-            updateButtons() {
-                // Never disable buttons for infinite scroll
-                this.prevBtn.disabled = false;
-                this.nextBtn.disabled = false;
-            }
-
-            next() {
-                if (this.currentIndex < this.maxIndex) {
-                    this.currentIndex = Math.min(this.currentIndex + 1, this.maxIndex);
-                } else {
-                    // Go to beginning when at the end
-                    this.currentIndex = 0;
-                }
-                this.updateCarousel();
-            }
-
-            prev() {
-                if (this.currentIndex > 0) {
-                    this.currentIndex = Math.max(this.currentIndex - 1, 0);
-                } else {
-                    // Go to end when at the beginning
-                    this.currentIndex = this.maxIndex;
-                }
-                this.updateCarousel();
-            }
-
-            goToSlide(slideIndex) {
-                this.currentIndex = Math.min(slideIndex * this.cardsPerView, this.maxIndex);
-                this.updateCarousel();
-            }
-
-            bindEvents() {
-                this.nextBtn.addEventListener('click', () => this.next());
-                this.prevBtn.addEventListener('click', () => this.prev());
-
-                // Keyboard navigation
-                document.addEventListener('keydown', (e) => {
-                    if (e.key === 'ArrowRight') this.next();
-                    if (e.key === 'ArrowLeft') this.prev();
-                });
-
-                // Touch/swipe support
-                let startX = 0;
-                let endX = 0;
-
-                this.track.addEventListener('touchstart', e => {
-                    startX = e.touches[0].clientX;
-                });
-
-                this.track.addEventListener('touchend', e => {
-                    endX = e.changedTouches[0].clientX;
-                    const diff = startX - endX;
-                    
-                    if (Math.abs(diff) > 50) {
-                        if (diff > 0) this.next();
-                        else this.prev();
-                    }
-                });
-
-                // Resize handler
-                window.addEventListener('resize', () => {
-                    this.cardsPerView = this.getCardsPerView();
-                    this.maxIndex = Math.max(0, this.cards.length - this.cardsPerView);
-                    this.currentIndex = Math.min(this.currentIndex, this.maxIndex);
-                    this.createDots();
-                    this.updateCarousel();
-                });
-
-                // Auto-play (optional)
-                setInterval(() => {
-                    if (this.currentIndex >= this.maxIndex) {
-                        this.currentIndex = 0;
-                    } else {
-                        this.next();
-                    }
-                }, 5000);
-            }
+        $next.on('click', function(){ 
+          if (index < Math.max(0, $cards.length - visible)) goTo(index + visible); 
+        });
+  
+        createDots();
+        updateButtons();
+        updateDots();
+  
+        // Recalc on resize
+        $(w).on('resize', rafThrottle(function(){
+          var oldVisible = visible;
+          var newWidth = $cards.first().outerWidth();
+          if (newWidth) cardWidth = newWidth + gap;
+          visible = Math.max(1, Math.floor($track.width() / cardWidth));
+          if (visible !== oldVisible){
+            createDots();
+            goTo(Math.min(index, Math.max(0, $cards.length - visible)));
+          } else {
+            goTo(index); // keep transform in sync
+          }
+        }));
+      }
+  
+      // ===============================
+      // ELITE COACHES CAROUSEL (same DOM as above but richer nav)
+      // 
+      // ===============================
+      function initEliteCoachesCarousel(){
+        var $track = $('#carouselTrack');
+        if (!$track.length) return;
+        if ($track.data('coaches-carousel-init')) return; // prevent double-binding
+        $track.data('coaches-carousel-init', true);
+  
+        var $prev = $('#prevBtn');
+        var $next = $('#nextBtn');
+        var $dots = $('#carouselDots');
+        var $cards = $track.find('.coach-card');
+        var index = 0;
+  
+        function cardsPerView(){
+          var wv = w.innerWidth;
+          if (wv <= 480) return 1;
+          if (wv <= 768) return 2;
+          if (wv <= 1024) return 3;
+          return 3;
         }
-
-        // Initialize carousel when DOM is loaded
-        document.addEventListener('DOMContentLoaded', () => {
-            new EliteCoachesCarousel();
+        var perView = cardsPerView();
+        var maxIndex = Math.max(0, $cards.length - perView);
+  
+        function createDots(){
+          $dots.empty();
+          var pages = Math.ceil($cards.length / perView);
+          var cardSymbols = ['&spades;', '&hearts;', '&clubs;', '&diams;']; // Spade, Heart, Club, Diamond
+          for (var i = 0; i < pages; i++){
+            var symbol = cardSymbols[i % cardSymbols.length];
+            var $dot = $('<button>').addClass('dot' + (i === 0 ? ' active' : '')).html(symbol);
+            (function(p){ $dot.on('click', function(){ goToPage(p); }); })(i);
+            $dots.append($dot);
+          }
+        }
+  
+        function goToPage(p){
+          index = Math.min(p * perView, maxIndex);
+          update();
+        }
+  
+        function update(){
+          var cw = $cards.first().outerWidth() || 320;
+          var gap = 24;
+          var tx = -(index * (cw + gap));
+          $track.css('transform', 'translateX(' + tx + 'px)');
+          var page = Math.floor(index / perView);
+          $dots.find('.dot').each(function(i){ $(this).toggleClass('active', i === page); });
+          // Keep buttons always enabled and visible - no visual changes
+          $prev.prop('disabled', false);
+          $next.prop('disabled', false);
+        }
+  
+        function next(){
+          if (index < maxIndex) index = Math.min(index + 1, maxIndex);
+          else index = 0;
+          update();
+        }
+        function prev(){
+          if (index > 0) index = Math.max(index - 1, 0);
+          else index = maxIndex;
+          update();
+        }
+  
+        $next.on('click', next);
+        $prev.on('click', prev);
+  
+        // Keyboard nav
+        $(d).on('keydown', function(e){
+          if (e.key === 'ArrowRight') next();
+          if (e.key === 'ArrowLeft') prev();
         });
-
-// end coach carousel
-
-// Mobile Tooltip Functionality
-document.addEventListener('DOMContentLoaded', function() {
-    // Check if device is touch-enabled
-    const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-    
-    // Get all tooltip triggers - now includes pricing-bonus elements and feature screenshots
-    const tooltipTriggers = document.querySelectorAll('.feature-text, .flowchart-step, .pricing-bonus, .feature-screenshot');
-    
-    // Only apply mobile behavior on touch devices or small screens
-    if (isTouchDevice || window.innerWidth <= 768) {
-        tooltipTriggers.forEach(trigger => {
-            const tooltip = trigger.querySelector('.tooltip');
-            if (!tooltip) return;
-            
-            // Add tooltip-toggle class for mobile behavior
-            trigger.classList.add('tooltip-toggle');
-            
-            // Handle tap/touch events
-            trigger.addEventListener('click', function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                
-                // Close other open tooltips
-                document.querySelectorAll('.tooltip-toggle.active').forEach(activeTooltip => {
-                    if (activeTooltip !== trigger) {
-                        activeTooltip.classList.remove('active');
-                    }
-                });
-                
-                // Toggle current tooltip
-                trigger.classList.toggle('active');
-            });
-            
-            // Handle keyboard navigation
-            trigger.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    trigger.classList.toggle('active');
-                }
-                
-                if (e.key === 'Escape') {
-                    trigger.classList.remove('active');
-                }
-            });
-            
-            // Make element focusable for keyboard users
-            if (!trigger.hasAttribute('tabindex')) {
-                trigger.setAttribute('tabindex', '0');
-            }
+  
+        // Touch nav with auto-pause functionality
+        var startX = 0;
+        var autoPlayInterval;
+        var isUserInteracting = false;
+        
+        // Start auto-play
+        function startAutoPlay() {
+          autoPlayInterval = setInterval(function(){
+            if (!isUserInteracting && index >= maxIndex) index = 0;
+            else if (!isUserInteracting) next();
+          }, 20000);
+        }
+        
+        // Stop auto-play
+        function stopAutoPlay() {
+          if (autoPlayInterval) {
+            clearInterval(autoPlayInterval);
+            autoPlayInterval = null;
+          }
+        }
+        
+        // Resume auto-play after user interaction
+        function resumeAutoPlay() {
+          isUserInteracting = true;
+          stopAutoPlay();
+          setTimeout(function(){
+            isUserInteracting = false;
+            startAutoPlay();
+          }, 15000); // Resume after 15 seconds of no interaction
+        }
+        
+        $track.on('touchstart', function(e){ 
+          startX = e.originalEvent.touches[0].clientX; 
+          resumeAutoPlay();
+        }, { passive: true });
+        
+        $track.on('touchend', function(e){
+          var endX = e.originalEvent.changedTouches[0].clientX;
+          var diff = startX - endX;
+          if (Math.abs(diff) > 50) {
+            diff > 0 ? next() : prev();
+            resumeAutoPlay();
+          }
         });
         
+        // Start auto-play initially
+        startAutoPlay();
+  
+        createDots();
+        update();
+      }
+  
+      // ===============================
+      // SMOOTH SCROLLING
+      // ===============================
+      function initSmoothScrolling(){
+        $(d).on('click', 'a[href^="#"]', function(e){
+          var $t = $($(this).attr('href'));
+          if ($t.length){
+            e.preventDefault();
+            $t[0].scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      }
+  
+      // ===============================
+      // GLOBAL SCROLL HELPERS
+      // ===============================
+      w.scrollToPricing = function(){
+        var $s = $('.pricing-section');
+        if ($s.length) $s[0].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      };
+      w.scrollToJoinNow = function(){
+        var $s = $('#join-now');
+        if ($s.length){
+          var $cta = $('#mobile-sticky-cta');
+          if ($cta.length){
+            $cta.css('opacity','0.7');
+            setTimeout(function(){ $cta.css('opacity','1'); }, 300);
+          }
+          $s[0].scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      };
+      w.scrollToSection = function(selector){
+        var $sec = $(selector);
+        if ($sec.length){
+          var offset = 60;
+          var pos = $sec.offset().top - offset;
+          $('html, body').animate({ scrollTop: pos }, 600);
+        }
+      };
+      w.scrollToTop = function(){
+        $('html, body').animate({ scrollTop: 0 }, 600);
+      };
+  
+      // ===============================
+      // FEATURE SECTION TOOLTIPS
+      // ===============================
+      function initFeatureTooltips(){
+        // Target the feature section .feature-text elements that include a tooltip
+        var $items = $('.features-grid .feature-text');
+        if (!$items.length) return;
+
+        $items.each(function(){
+          var $t = $(this);
+          var $tooltip = $t.find('.tooltip');
+          if ($tooltip.length === 0) return;
+
+          // Make it interactive like pricing tooltips
+          if (!$t.hasClass('tooltip-toggle')) $t.addClass('tooltip-toggle');
+          if (!$t.attr('tabindex')) $t.attr('tabindex', '0');
+
+          // Desktop hover behavior
+          if (!('ontouchstart' in window)) {
+            $t.on('mouseenter', function(){ $(this).addClass('active'); });
+            $t.on('mouseleave', function(){ $(this).removeClass('active'); });
+          }
+
+          // Mobile click behavior
+          $t.on('click', function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            
+            var $this = $(this);
+            var isCurrentlyActive = $this.hasClass('active');
+            
+            // Close all other tooltips first
+            $('.feature-text.active').not($this).removeClass('active');
+            
+            // Toggle this tooltip
+            $this.toggleClass('active');
+          });
+        });
+
         // Close tooltips when clicking outside
-        document.addEventListener('click', function(e) {
-            if (!e.target.closest('.tooltip-toggle')) {
-                document.querySelectorAll('.tooltip-toggle.active').forEach(activeTooltip => {
-                    activeTooltip.classList.remove('active');
-                });
-            }
+        $(d).on('click', function(e){
+          if (!$(e.target).closest('.feature-text').length){
+            $('.feature-text.active').removeClass('active');
+          }
         });
-        
-        // Close tooltips when scrolling (for mobile)
-        let scrollTimeout;
-        window.addEventListener('scroll', function() {
-            clearTimeout(scrollTimeout);
-            scrollTimeout = setTimeout(() => {
-                document.querySelectorAll('.tooltip-toggle.active').forEach(activeTooltip => {
-                    activeTooltip.classList.remove('active');
-                });
-            }, 150);
+
+        // Close tooltips on escape key
+        $(d).on('keydown', function(e){
+          if (e.key === 'Escape') {
+            $('.feature-text.active').removeClass('active');
+          }
         });
-        
-        // Handle orientation changes
-        window.addEventListener('orientationchange', function() {
-            setTimeout(() => {
-                document.querySelectorAll('.tooltip-toggle.active').forEach(activeTooltip => {
-                    activeTooltip.classList.remove('active');
-                });
-            }, 500);
+
+        // Debug
+        console.log('Feature tooltips initialized. Found:', $('.features-grid .feature-text.tooltip-toggle').length);
+      }
+  
+      // ===============================
+      // PRICING FEATURES TOOLTIPS
+      // ===============================
+      function initPricingTooltips(){
+        // Target the pricing features list items that include a tooltip inside .feature-text
+        var $items = $('.pricing-features-list .feature-text');
+        if (!$items.length) return;
+
+        $items.each(function(){
+          var $t = $(this);
+          var $tooltip = $t.find('.tooltip');
+          if ($tooltip.length === 0) return;
+
+          // Make it interactive like other tooltip areas
+          if (!$t.hasClass('tooltip-toggle')) $t.addClass('tooltip-toggle');
+          if (!$t.attr('tabindex')) $t.attr('tabindex', '0');
+
+          // Desktop hover mirrors behavior used for feature screenshots
+          if (!('ontouchstart' in window)) {
+            $t.on('mouseenter', function(){ $(this).addClass('active'); });
+            $t.on('mouseleave', function(){ $(this).removeClass('active'); });
+          }
         });
-    }
-    
-    // Handle window resize
-    let resizeTimeout;
-    window.addEventListener('resize', function() {
-        clearTimeout(resizeTimeout);
-        resizeTimeout = setTimeout(() => {
-            // Re-evaluate if we need mobile behavior
-            const needsMobileBehavior = window.innerWidth <= 768;
+
+        // Debug
+        console.log('Pricing tooltips initialized. Found:', $('.pricing-features-list .feature-text.tooltip-toggle').length);
+      }
+
+      // ===============================
+      // MOBILE STICKY CTA
+      // ===============================
+      function initMobileStickyCTA(){
+        var $cta = $('#mobile-sticky-cta');
+        var $hero = $('#top-hero');
+        if (!$cta.length || !$hero.length) return;
+  
+        function show(){ $cta.addClass('visible'); }
+        function hide(){ $cta.removeClass('visible'); }
+  
+        function checkScroll(){
+          if (w.innerWidth <= 768){
+            var heroBottom = $hero.offset().top + $hero.outerHeight();
+            var scrollTop = $(w).scrollTop();
             
-            tooltipTriggers.forEach(trigger => {
-                if (needsMobileBehavior && !trigger.classList.contains('tooltip-toggle')) {
-                    trigger.classList.add('tooltip-toggle');
-                } else if (!needsMobileBehavior && isTouchDevice === false) {
-                    trigger.classList.remove('tooltip-toggle', 'active');
-                }
-            });
-        }, 250);
-    });
-});
-
-// Optional: Add swipe gesture support for closing tooltips
-if ('ontouchstart' in window) {
-    let startY = 0;
-    
-    document.addEventListener('touchstart', function(e) {
-        startY = e.touches[0].clientY;
-    }, { passive: true });
-    
-    document.addEventListener('touchmove', function(e) {
-        const currentY = e.touches[0].clientY;
-        const diffY = Math.abs(currentY - startY);
-        
-        // If user swipes significantly, close tooltips
-        if (diffY > 50) {
-            document.querySelectorAll('.tooltip-toggle.active').forEach(activeTooltip => {
-                activeTooltip.classList.remove('active');
-            });
+            if (scrollTop > heroBottom){
+              show();
+            } else {
+              hide();
+            }
+          } else {
+            hide();
+          }
         }
-    }, { passive: true });
-}
-
-// Mobile Sticky CTA Button Functionality
-class MobileStickyCTA {
-    constructor() {
-        this.ctaButton = null;
-        this.heroSection = null;
-        this.isVisible = false;
-        this.isInitialized = false;
-        this.scrollHandler = null;
-        this.init();
-    }
-
-    init() {
-        // Wait for DOM to be ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => this.setupElements());
+  
+        $(w).on('resize', rafThrottle(checkScroll));
+        $(w).on('scroll', rafThrottle(checkScroll), { passive: true });
+        checkScroll(); // Initial check
+      }
+  
+      // ===============================
+      // EXPANDABLE SECTIONS
+      // ===============================
+      w.toggleExpandable = function(contentId, button){
+        var $c = $('#' + contentId);
+        var isExp = $c.hasClass('expanded');
+        if (isExp){
+          $c.removeClass('expanded');
+          $(button).removeClass('expanded').find('.expand-text').text('Expand to see all lessons');
+          $(button).find('.expand-icon').text('+');
         } else {
-            this.setupElements();
+          $c.addClass('expanded');
+          $(button).addClass('expanded').find('.expand-text').text('Collapse lessons');
+          $(button).find('.expand-icon').text('×');
         }
-    }
-
-    setupElements() {
-        this.ctaButton = document.getElementById('mobile-sticky-cta');
-        this.heroSection = document.querySelector('.lab-hero-section');
-        
-
-        
-        if (!this.ctaButton || !this.heroSection) {
-            console.warn('Mobile CTA elements not found');
-            return;
-        }
-
-        // Only initialize on mobile devices
-        if (window.innerWidth <= 768) {
-            this.bindEvents();
-            this.checkVisibility();
-            this.isInitialized = true;
-        }
-
-        // Handle window resize
-        window.addEventListener('resize', () => {
-            if (window.innerWidth <= 768 && !this.isInitialized) {
-                this.bindEvents();
-                this.checkVisibility();
-                this.isInitialized = true;
-            } else if (window.innerWidth > 768 && this.isInitialized) {
-                this.hideCTA();
-                this.unbindEvents();
-                this.isInitialized = false;
-            }
-        });
-    }
-
-    bindEvents() {
-        // Remove existing listener to prevent duplicates
-        this.unbindEvents();
-        
-        // Create throttled scroll handler
-        let ticking = false;
-        this.scrollHandler = () => {
-            if (!ticking) {
-                requestAnimationFrame(() => {
-                    this.checkVisibility();
-                    ticking = false;
-                });
-                ticking = true;
-            }
-        };
-        
-        window.addEventListener('scroll', this.scrollHandler, { passive: true });
-    }
-
-    unbindEvents() {
-        if (this.scrollHandler) {
-            window.removeEventListener('scroll', this.scrollHandler);
-            this.scrollHandler = null;
-        }
-    }
-
-    checkVisibility() {
-        if (!this.heroSection || !this.ctaButton || window.innerWidth > 768) return;
-
-        // Always show CTA on mobile devices
-        if (!this.isVisible) {
-            this.showCTA();
-        }
-    }
-
-    showCTA() {
-        if (this.ctaButton) {
-            this.ctaButton.classList.add('visible');
-            this.isVisible = true;
-        }
-    }
-
-    hideCTA() {
-        if (this.ctaButton) {
-            this.ctaButton.classList.remove('visible');
-            this.isVisible = false;
-        }
-    }
-}
-
-// Smooth scroll function for the CTA button
-function scrollToJoinNow() {
-    const joinSection = document.getElementById('join-now');
-    if (joinSection) {
-        // Add smooth fade animation
-        const mobileCTA = document.getElementById('mobile-sticky-cta');
-        if (mobileCTA) {
-            mobileCTA.style.opacity = '0.7';
-            setTimeout(() => {
-                mobileCTA.style.opacity = '1';
-            }, 300);
-        }
-
-        // Smooth scroll to the section
-        joinSection.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        });
-    }
-}
-
-// Smooth scroll function for navigation links
-function scrollToSection(selector) {
-    const section = document.querySelector(selector);
-    if (section) {
-        // Calculate offset for sticky nav
-        const offset = 60; // Height of sticky nav
-        const elementPosition = section.offsetTop;
-        const offsetPosition = elementPosition - offset;
-
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
-        });
-    }
-}
-
-// Initialize Mobile Sticky CTA when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    new MobileStickyCTA();
-});
-
-// Also try immediate initialization in case DOM is already loaded
-if (document.readyState !== 'loading') {
-    new MobileStickyCTA();
-}
+      };
+      function initExpandable(){
+        $('.UMA__path-expandable-content').removeClass('expanded');
+      }
+  
+      // ===============================
+      // SWIPE GESTURES (close tooltips on big vertical swipe)
+      // ===============================
+      function initSwipeGestures(){
+        if (!('ontouchstart' in w)) return;
+        var startY = 0;
+        $(d).on('touchstart', function(e){ startY = e.originalEvent.touches[0].clientY; }, { passive: true });
+        $(d).on('touchmove', function(e){
+          var currentY = e.originalEvent.touches[0].clientY;
+          if (Math.abs(currentY - startY) > 50) $('.tooltip-toggle.active').removeClass('active');
+        }, { passive: true });
+      }
+  
+      // ===============================
+      // INIT ALL
+      // ===============================
+      function initAll(){
+        initFeatureTooltips();
+        initPricingTooltips();
+        initMobileStickyCTA();
+        initExpandable();
+        initSwipeGestures();
+        initSmoothScrolling();
+        initEliteCoachesCarousel();
+        console.log('UMA header script ready');
+      }
+  
+      // Run now, and also after window load as a safety
+      initAll();
+      $(w).on('load', function(){ setTimeout(initAll, 100); });
+    });
+  })(window, document);
+  
