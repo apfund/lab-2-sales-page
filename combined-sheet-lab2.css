@@ -5391,7 +5391,7 @@ color: var(--text-primary);
 
 @media (max-width: 768px) {
 .pricing-section .tooltip {
-    background: rgba(255, 184, 0, 0.1);
+    background: rgba(30, 30, 34, 0.8);
     border-color: var(--accent-gold);
     color: var(--text-primary);
 }
@@ -5510,6 +5510,62 @@ box-shadow: 0 4px 12px rgba(0, 166, 81, 0.3);
 .sticky-nav-cta:active {
 transform: translateY(0);
 box-shadow: 0 2px 6px rgba(0, 166, 81, 0.2);
+}
+
+/* Sale Badge on Nav CTA */
+.sale-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+  color: white;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 10px;
+  letter-spacing: 0.3px;
+  box-shadow: 0 2px 6px rgba(255, 68, 68, 0.4);
+  animation: pulse-badge 2s ease-in-out infinite;
+}
+
+@keyframes pulse-badge {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.sticky-nav-cta {
+  position: relative;
+}
+
+/* Hero Sale Text */
+.hero-sale-text {
+  color: #ffd700;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+  text-align: center;
+  font-family: var(--font-lab-heading);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+@media (max-width: 768px) {
+  .hero-sale-text {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+  .sale-badge {
+    font-size: 8px;
+    padding: 2px 5px;
+    top: -6px;
+    right: -6px;
+  }
 }
 
 /* Show sticky nav only on desktop */
